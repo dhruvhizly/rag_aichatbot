@@ -5,12 +5,14 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    groq_api_key: str = ""
-    model: str = Field(
-        default="llama3-70b-8192",
-        validation_alias=AliasChoices("MODEL", "GROQ_MODEL"),
+    ollama_base_url: str = Field(
+        default="http://localhost:11434",
+        validation_alias=AliasChoices("OLLAMA_BASE_URL", "OLLAMA_HOST"),
     )
-    agent_temperature: float = 0.35
+    model: str = Field(
+        default="qwen3.5",
+        validation_alias=AliasChoices("MODEL", "OLLAMA_MODEL"),
+    )
     app_name: str = "AI Chatbot"
     debug: bool = False
     upload_dir: str = "uploads"
@@ -18,6 +20,7 @@ class Settings(BaseSettings):
     chunk_size: int = 1000
     chunk_overlap: int = 200
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_cache_dir: str = "models"
     rag_top_k: int = 4
     rag_min_relevance_score: float = 0.06
 

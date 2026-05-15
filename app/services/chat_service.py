@@ -1,15 +1,13 @@
 from typing import AsyncGenerator
 
-from langchain_core.messages import HumanMessage
-
-from app.services.agent_service import dict_messages_to_lc, stream_agent_answer
-from app.services.llm_service import SYSTEM_PROMPT
+from app.services.llm_service import SYSTEM_PROMPT, LLMService
 from app.services.rag_registry import get_rag_service
 
 
 class ChatService:
     def __init__(self) -> None:
         self._histories: dict[str, list[dict]] = {}
+        self._llm = LLMService()
 
     def _get_history(self, session_id: str) -> list[dict]:
         if session_id not in self._histories:
@@ -26,24 +24,20 @@ class ChatService:
     ) -> AsyncGenerator[str, None]:
         history = self._get_history(session_id)
         rag = get_rag_service()
-        retrieval, anchor_to_uploads = rag.retrieval_for_chat(session_id, user_message)
+        retrieval = rag.retrieval_for_chat(session_id, user_message)
         doc_session = rag.session_has_indexed_documents(session_id)
-        include_web_search = not anchor_to_uploads
 
         user_for_llm = self._user_turn_with_retrieval(
             user_message,
             retrieval,
             doc_session=doc_session,
-            anchor_to_uploads=anchor_to_uploads,
         )
-        agent_messages = [*dict_messages_to_lc(history), HumanMessage(content=user_for_llm)]
+        messages = [*history, {"role": "user", "content": user_for_llm}]
         full_reply: list[str] = []
 
-        async for token in stream_agent_answer(
-            agent_messages,
-            include_web_search=include_web_search,
-        ):
+        async for token in self._llm.stream_chat(messages):
             full_reply.append(token)
+            
             yield token
 
         history.append({"role": "user", "content": user_message})
@@ -55,22 +49,19 @@ class ChatService:
         retrieval_block: str,
         *,
         doc_session: bool,
-        anchor_to_uploads: bool,
     ) -> str:
-        policy = ""
-        if anchor_to_uploads:
+        if not doc_session:
             policy = (
-                "\n\n[Strict document mode: retrieved excerpts match this question well. "
-                "Answer document facts only from the excerpts. "
-                "If they do not contain the answer, reply in one or two sentences that it is not in the uploads "
-                "— do not add unrelated bullets from the file. Web search is disabled for this turn.]\n"
+                "\n\n[No documents have been uploaded for this session. "
+                "Reply in one or two sentences that you can only answer questions about uploaded documents, "
+                "and ask the user to upload a PDF or TXT file first. Do not answer from general knowledge.]\n"
             )
-        elif doc_session:
+        else:
             policy = (
-                "\n\n[General / live question mode: uploads exist but are not closely matched to this query. "
-                "Use web search for weather, news, sports, or other external facts. "
-                "Use the calculator only for explicit math. Do not pretend upload excerpts answered a "
-                "question they do not relate to.]\n"
+                "\n\n[Document-only mode: answer strictly from the retrieved excerpts above. "
+                "If the excerpts do not contain the answer, reply in one or two sentences that the information "
+                "is not in the uploaded documents. Do not answer from general knowledge, do not speculate, "
+                "and do not invent details.]\n"
             )
         return (
             "Retrieved document excerpts for this session (may be empty or irrelevant):\n\n"

@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import AsyncGenerator
 
-from groq import AsyncGroq
+from ollama import AsyncClient
 
 from app.config import get_settings
 
@@ -12,25 +12,28 @@ SYSTEM_PROMPT = _PROMPT_PATH.read_text(encoding="utf-8").strip()
 class LLMService:
     def __init__(self) -> None:
         settings = get_settings()
-        self.client = AsyncGroq(api_key=settings.groq_api_key)
+        self.client = AsyncClient(host=settings.ollama_base_url)
         self.model = settings.model
 
     async def stream_chat(self, messages: list[dict]) -> AsyncGenerator[str, None]:
-        stream = await self.client.chat.completions.create(
+        stream = await self.client.chat(
             model=self.model,
             messages=messages,
             stream=True,
-            temperature=0.7,
+            options={"temperature": 0.7},
         )
         async for chunk in stream:
-            delta = chunk.choices[0].delta
-            if delta.content:
-                yield delta.content
+            content = chunk.get("message", {}).get("content") if isinstance(chunk, dict) else getattr(chunk.message, "content", None)
+            if content:
+                yield content
 
     async def chat(self, messages: list[dict]) -> str:
-        response = await self.client.chat.completions.create(
+        response = await self.client.chat(
             model=self.model,
             messages=messages,
-            temperature=0.7,
+            stream=False,
+            options={"temperature": 0.7},
         )
-        return response.choices[0].message.content or ""
+        if isinstance(response, dict):
+            return response.get("message", {}).get("content", "") or ""
+        return getattr(response.message, "content", "") or ""

@@ -15,7 +15,7 @@ settings = get_settings()
 
 app = FastAPI(
     title=settings.app_name,
-    description="Conversational AI chatbot with RAG and Agent capabilities",
+    description="Conversational AI chatbot with RAG capabilities",
     version="1.0.0",
 )
 

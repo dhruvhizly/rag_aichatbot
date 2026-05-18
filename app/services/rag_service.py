@@ -45,13 +45,18 @@ class RAGService:
         return self._index.chunk_count(session_id) > 0
 
     def retrieval_for_chat(self, session_id: str, query: str) -> str:
-        if self._index.chunk_count(session_id) <= 0:
-            return _NO_FILES
+        block, _ = self.retrieval_and_presence(session_id, query)
+        return block
+
+    def retrieval_and_presence(self, session_id: str, query: str) -> tuple[str, bool]:
+        has_docs = self._index.chunk_count(session_id) > 0
+        if not has_docs:
+            return _NO_FILES, False
 
         pairs = self._index.similarity_search_with_relevance_scores(session_id, query, self._top_k)
         if not pairs:
-            return _NO_CHUNKS
+            return _NO_CHUNKS, True
 
         texts = [text for text, _ in pairs]
         parts = [f"[Excerpt {i}]\n{block}" for i, block in enumerate(texts, start=1)]
-        return "\n\n".join(parts)
+        return "\n\n".join(parts), True

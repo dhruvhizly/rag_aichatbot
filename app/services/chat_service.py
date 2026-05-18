@@ -1,3 +1,4 @@
+import asyncio
 from typing import AsyncGenerator
 
 from app.services.llm_service import SYSTEM_PROMPT, LLMService
@@ -24,8 +25,9 @@ class ChatService:
     ) -> AsyncGenerator[str, None]:
         history = self._get_history(session_id)
         rag = get_rag_service()
-        retrieval = rag.retrieval_for_chat(session_id, user_message)
-        doc_session = rag.session_has_indexed_documents(session_id)
+        retrieval, doc_session = await asyncio.to_thread(
+            rag.retrieval_and_presence, session_id, user_message
+        )
 
         user_for_llm = self._user_turn_with_retrieval(
             user_message,

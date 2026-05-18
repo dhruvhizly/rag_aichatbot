@@ -16,12 +16,19 @@ async def chat_endpoint(request: ChatRequest):
     try:
 
         async def event_generator():
-            async for token in chat_service.stream_response(
-                user_message=request.message,
-                session_id=request.session_id,
-            ):
-                yield f"data: {token}\n\n"
-            yield "data: [DONE]\n\n"
+            try:
+                async for token in chat_service.stream_response(
+                    user_message=request.message,
+                    session_id=request.session_id,
+                ):
+                    payload = token.replace("\r\n", "\n").replace("\n", "\ndata: ")
+                    yield f"data: {payload}\n\n"
+                yield "data: [DONE]\n\n"
+            except Exception as exc:
+                logger.exception("Error while streaming chat response")
+                err = str(exc).replace("\n", " ")
+                yield f"event: error\ndata: {err}\n\n"
+                yield "data: [DONE]\n\n"
 
         return StreamingResponse(
             event_generator(),

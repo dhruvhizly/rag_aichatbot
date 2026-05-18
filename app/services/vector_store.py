@@ -1,46 +1,85 @@
 from __future__ import annotations
 
-import hashlib
+import logging
+import uuid
+from concurrent.futures import ThreadPoolExecutor
+from typing import Any
 
-from langchain_chroma import Chroma
-from langchain_core.documents import Document
+import chromadb
+from chromadb.config import Settings as ChromaSettings
 
 from app.config import Settings
 
+logger = logging.getLogger(__name__)
 
-def _collection_name(session_id: str) -> str:
-    digest = hashlib.sha256(session_id.encode("utf-8")).hexdigest()[:48]
-    return f"rag_{digest}"
+_COLLECTION_NAME = "rag_main"
 
 
 class DocumentIndex:
     def __init__(self, settings: Settings, embedding_fn) -> None:
         self._persist_dir = settings.chroma_db_dir
         self._embedding_fn = embedding_fn
+        self._executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="chroma")
+        self._client: Any = None
+        self._collection: Any = None
+        self._sessions_with_docs: set[str] = set()
+        self._executor.submit(self._ensure_collection).result()
+        self._executor.submit(self._load_existing_sessions).result()
 
-    def _vectorstore(self, session_id: str) -> Chroma:
-        return Chroma(
-            collection_name=_collection_name(session_id),
-            embedding_function=self._embedding_fn,
-            persist_directory=self._persist_dir,
+    def _ensure_collection(self):
+        if self._collection is not None:
+            return self._collection
+        self._client = chromadb.PersistentClient(
+            path=self._persist_dir,
+            settings=ChromaSettings(anonymized_telemetry=False, allow_reset=False),
         )
+        self._collection = self._client.get_or_create_collection(
+            name=_COLLECTION_NAME,
+            metadata={"hnsw:space": "cosine"},
+        )
+        return self._collection
+
+    def _load_existing_sessions(self) -> None:
+        try:
+            data = self._collection.get(include=["metadatas"])
+            for md in data.get("metadatas") or []:
+                sid = (md or {}).get("session_id")
+                if sid:
+                    self._sessions_with_docs.add(sid)
+            if self._sessions_with_docs:
+                logger.info("Loaded %d existing session(s) from index", len(self._sessions_with_docs))
+        except Exception:
+            logger.exception("Failed to enumerate existing sessions; starting empty")
+
+    def _add_sync(self, session_id: str, texts: list[str], metadatas: list[dict]) -> None:
+        col = self._ensure_collection()
+        vectors = self._embedding_fn.embed_documents(texts)
+        ids = [uuid.uuid4().hex for _ in texts]
+        md = [{"session_id": session_id, **(m or {})} for m in metadatas]
+        col.add(ids=ids, documents=texts, embeddings=vectors, metadatas=md)
+        self._sessions_with_docs.add(session_id)
+
+    def _search_sync(self, session_id: str, query: str, k: int) -> list[str]:
+        col = self._ensure_collection()
+        from app.services.embeddings import embed_query_cached
+
+        query_vec = embed_query_cached(query)
+        res = col.query(
+            query_embeddings=[query_vec],
+            n_results=k,
+            where={"session_id": session_id},
+        )
+        docs_outer = res.get("documents") or [[]]
+        return list(docs_outer[0])
 
     def add_documents(self, session_id: str, texts: list[str], metadatas: list[dict]) -> None:
-        docs = [Document(page_content=text, metadata=meta) for text, meta in zip(texts, metadatas)]
-        self._vectorstore(session_id).add_documents(docs)
+        self._executor.submit(self._add_sync, session_id, texts, metadatas).result()
 
     def similarity_search(self, session_id: str, query: str, k: int) -> list[str]:
-        hits = self._vectorstore(session_id).similarity_search(query, k=k)
-        return [d.page_content for d in hits]
+        return self._executor.submit(self._search_sync, session_id, query, k).result()
 
-    def similarity_search_with_relevance_scores(
-        self, session_id: str, query: str, k: int
-    ) -> list[tuple[str, float]]:
-        pairs = self._vectorstore(session_id).similarity_search_with_relevance_scores(query, k=k)
-        return [(doc.page_content, float(score)) for doc, score in pairs]
+    def has_session(self, session_id: str) -> bool:
+        return session_id in self._sessions_with_docs
 
-    def chunk_count(self, session_id: str) -> int:
-        try:
-            return int(self._vectorstore(session_id)._collection.count())
-        except Exception:
-            return 0
+    def prewarm(self) -> None:
+        self._executor.submit(self._ensure_collection).result()

@@ -18,11 +18,12 @@ class Settings(BaseSettings):
     upload_dir: str = "uploads"
     chroma_db_dir: str = "chroma_db"
     chunk_size: int = 1000
-    chunk_overlap: int = 200
+    chunk_overlap: int = 100
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_cache_dir: str = "models"
-    rag_top_k: int = 4
+    rag_top_k: int = 3
     rag_min_relevance_score: float = 0.06
+    history_max_turns: int = 6
 
     class Config:
         env_file = ".env"

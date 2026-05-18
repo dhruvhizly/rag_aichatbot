@@ -1,14 +1,31 @@
 import asyncio
+import re
 from typing import AsyncGenerator
 
+from app.config import get_settings
 from app.services.llm_service import SYSTEM_PROMPT, LLMService
 from app.services.rag_registry import get_rag_service
+
+_PRONOUN_RE = re.compile(
+    r"\b(it|its|that|those|this|these|they|them|their|he|she|him|her|same)\b",
+    re.IGNORECASE,
+)
+
+
+def _looks_like_followup(text: str) -> bool:
+    t = text.strip()
+    if not t or len(t) > 80:
+        return False
+    return bool(_PRONOUN_RE.search(t))
 
 
 class ChatService:
     def __init__(self) -> None:
+        settings = get_settings()
         self._histories: dict[str, list[dict]] = {}
+        self._last_retrieval: dict[str, tuple[str, bool]] = {}
         self._llm = LLMService()
+        self._history_max_turns = settings.history_max_turns
 
     def _get_history(self, session_id: str) -> list[dict]:
         if session_id not in self._histories:
@@ -17,6 +34,7 @@ class ChatService:
 
     def clear_history(self, session_id: str) -> None:
         self._histories.pop(session_id, None)
+        self._last_retrieval.pop(session_id, None)
 
     async def stream_response(
         self,
@@ -25,9 +43,15 @@ class ChatService:
     ) -> AsyncGenerator[str, None]:
         history = self._get_history(session_id)
         rag = get_rag_service()
-        retrieval, doc_session = await asyncio.to_thread(
-            rag.retrieval_and_presence, session_id, user_message
-        )
+
+        prior = self._last_retrieval.get(session_id)
+        if prior is not None and _looks_like_followup(user_message):
+            retrieval, doc_session = prior
+        else:
+            retrieval, doc_session = await asyncio.to_thread(
+                rag.retrieval_and_presence, session_id, user_message
+            )
+            self._last_retrieval[session_id] = (retrieval, doc_session)
 
         user_for_llm = self._user_turn_with_retrieval(
             user_message,
@@ -39,11 +63,18 @@ class ChatService:
 
         async for token in self._llm.stream_chat(messages):
             full_reply.append(token)
-            
             yield token
 
         history.append({"role": "user", "content": user_message})
         history.append({"role": "assistant", "content": "".join(full_reply)})
+        self._trim_history(history)
+
+    def _trim_history(self, history: list[dict]) -> None:
+        max_messages = 1 + 2 * self._history_max_turns
+        if len(history) <= max_messages:
+            return
+        keep_tail = max_messages - 1
+        del history[1 : len(history) - keep_tail]
 
     @staticmethod
     def _user_turn_with_retrieval(

@@ -6,7 +6,7 @@ pydantic-settings
 ollama
 langchain-text-splitters
 langchain-huggingface
-langchain-chroma
+langchain-community
 sentence-transformers
 chromadb
 python-dotenv

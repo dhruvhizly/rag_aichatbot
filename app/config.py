@@ -10,20 +10,23 @@ class Settings(BaseSettings):
         validation_alias=AliasChoices("OLLAMA_BASE_URL", "OLLAMA_HOST"),
     )
     model: str = Field(
-        default="qwen3.5",
+        default="qwen2.5:1.5b",
         validation_alias=AliasChoices("MODEL", "OLLAMA_MODEL"),
     )
     app_name: str = "AI Chatbot"
     debug: bool = False
     upload_dir: str = "uploads"
     chroma_db_dir: str = "chroma_db"
-    chunk_size: int = 1000
-    chunk_overlap: int = 100
+    chunk_size: int = 600
+    chunk_overlap: int = 80
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_cache_dir: str = "models"
-    rag_top_k: int = 3
+    rag_top_k: int = 2
     rag_min_relevance_score: float = 0.06
-    history_max_turns: int = 6
+    history_max_turns: int = 3
+    llm_num_ctx: int = 2048
+    llm_num_predict: int = 512
+    llm_keep_alive: str = "30m"
 
     class Config:
         env_file = ".env"

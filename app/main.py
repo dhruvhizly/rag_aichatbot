@@ -23,13 +23,21 @@ settings = get_settings()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    import asyncio
+
     from app.services.embeddings import prewarm as prewarm_embeddings
+    from app.services.llm_service import LLMService
     from app.services.rag_registry import get_rag_service
 
     logger.info("Pre-warming embeddings...")
     prewarm_embeddings()
     logger.info("Pre-warming Chroma index...")
     get_rag_service()
+    logger.info("Pre-warming Ollama model...")
+    try:
+        await asyncio.wait_for(LLMService().prewarm(), timeout=120)
+    except Exception:
+        logger.exception("LLM prewarm failed (continuing)")
     logger.info("Startup complete.")
     yield
 

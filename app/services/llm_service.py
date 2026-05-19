@@ -14,13 +14,20 @@ class LLMService:
         settings = get_settings()
         self.client = AsyncClient(host=settings.ollama_base_url)
         self.model = settings.model
+        self.keep_alive = settings.llm_keep_alive
+        self._options = {
+            "temperature": 0.7,
+            "num_ctx": settings.llm_num_ctx,
+            "num_predict": settings.llm_num_predict,
+        }
 
     async def stream_chat(self, messages: list[dict]) -> AsyncGenerator[str, None]:
         stream = await self.client.chat(
             model=self.model,
             messages=messages,
             stream=True,
-            options={"temperature": 0.7},
+            keep_alive=self.keep_alive,
+            options=self._options,
         )
         async for chunk in stream:
             content = chunk.get("message", {}).get("content") if isinstance(chunk, dict) else getattr(chunk.message, "content", None)
@@ -32,8 +39,21 @@ class LLMService:
             model=self.model,
             messages=messages,
             stream=False,
-            options={"temperature": 0.7},
+            keep_alive=self.keep_alive,
+            options=self._options,
         )
         if isinstance(response, dict):
             return response.get("message", {}).get("content", "") or ""
         return getattr(response.message, "content", "") or ""
+
+    async def prewarm(self) -> None:
+        await self.client.chat(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": "ok"},
+            ],
+            stream=False,
+            keep_alive=self.keep_alive,
+            options={**self._options, "num_predict": 1},
+        )

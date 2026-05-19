@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 
 _COLLECTION_NAME = "rag_main"
 
-
 class DocumentIndex:
     def __init__(self, settings: Settings, embedding_fn) -> None:
         self._persist_dir = settings.chroma_db_dir
@@ -35,7 +34,12 @@ class DocumentIndex:
         )
         self._collection = self._client.get_or_create_collection(
             name=_COLLECTION_NAME,
-            metadata={"hnsw:space": "cosine"},
+            metadata={
+                "hnsw:space": "cosine",
+                "hnsw:search_ef": 40,
+                "hnsw:construction_ef": 100,
+                "hnsw:M": 16,
+            },
         )
         return self._collection
 

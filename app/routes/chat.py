@@ -17,12 +17,15 @@ async def chat_endpoint(request: ChatRequest):
 
         async def event_generator():
             try:
-                async for token in chat_service.stream_response(
+                async for kind, text in chat_service.stream_response(
                     user_message=request.message,
                     session_id=request.session_id,
                 ):
-                    payload = token.replace("\r\n", "\n").replace("\n", "\ndata: ")
-                    yield f"data: {payload}\n\n"
+                    payload = text.replace("\r\n", "\n").replace("\n", "\ndata: ")
+                    if kind == "status":
+                        yield f"event: status\ndata: {payload}\n\n"
+                    else:
+                        yield f"data: {payload}\n\n"
                 yield "data: [DONE]\n\n"
             except Exception as exc:
                 logger.exception("Error while streaming chat response")

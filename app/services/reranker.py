@@ -30,7 +30,8 @@ def get_reranker() -> CrossEncoder:
         settings.reranker_model,
         device=device,
         max_length=512,
-        cache_folder=str(cache_dir),
+        model_kwargs={"cache_dir": str(cache_dir)},
+        local_files_only=True,
     )
 
 

@@ -22,6 +22,7 @@ class DocumentIndex:
         self._client: Any = None
         self._collection: Any = None
         self._sessions_with_docs: set[str] = set()
+        self._session_sources: dict[str, set[str]] = {}
         self._executor.submit(self._ensure_collection).result()
         self._executor.submit(self._load_existing_sessions).result()
 
@@ -47,9 +48,14 @@ class DocumentIndex:
         try:
             data = self._collection.get(include=["metadatas"])
             for md in data.get("metadatas") or []:
-                sid = (md or {}).get("session_id")
-                if sid:
-                    self._sessions_with_docs.add(sid)
+                md = md or {}
+                sid = md.get("session_id")
+                if not sid:
+                    continue
+                self._sessions_with_docs.add(sid)
+                source = md.get("source")
+                if source:
+                    self._session_sources.setdefault(sid, set()).add(source)
             if self._sessions_with_docs:
                 logger.info("Loaded %d existing session(s) from index", len(self._sessions_with_docs))
         except Exception:
@@ -62,6 +68,11 @@ class DocumentIndex:
         md = [{"session_id": session_id, **(m or {})} for m in metadatas]
         col.add(ids=ids, documents=texts, embeddings=vectors, metadatas=md)
         self._sessions_with_docs.add(session_id)
+        bucket = self._session_sources.setdefault(session_id, set())
+        for m in md:
+            source = m.get("source")
+            if source:
+                bucket.add(source)
 
     def _search_sync(self, session_id: str, query: str, k: int) -> list[str]:
         col = self._ensure_collection()
@@ -84,6 +95,9 @@ class DocumentIndex:
 
     def has_session(self, session_id: str) -> bool:
         return session_id in self._sessions_with_docs
+
+    def list_sources(self, session_id: str) -> list[str]:
+        return sorted(self._session_sources.get(session_id, set()))
 
     def prewarm(self) -> None:
         self._executor.submit(self._ensure_collection).result()

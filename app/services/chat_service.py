@@ -61,6 +61,7 @@ GENERATING_STATUSES = [
     "Let me check on that…",
     "Let me look into that…",
     "Hang tight…",
+    "A bit longer, thanks for your patience..."
 ]
 
 _PRONOUN_RE = re.compile(
@@ -399,11 +400,15 @@ class ChatService:
                     retrieval, doc_session = await asyncio.to_thread(
                         rag.retrieval_and_presence, session_id, embed_query
                     )
+                    sources = rag.list_sources(session_id)
                     self._get_recent(session_id).append(user_message)
                     t_retrieval = time.perf_counter() - t0
 
                     user_for_llm = self._user_turn_with_retrieval(
-                        user_message, retrieval, doc_session=doc_session
+                        user_message,
+                        retrieval,
+                        doc_session=doc_session,
+                        sources=sources,
                     )
                     messages = [*history, {"role": "user", "content": user_for_llm}]
 
@@ -463,8 +468,14 @@ class ChatService:
         retrieval_block: str,
         *,
         doc_session: bool,
+        sources: list[str],
     ) -> str:
+        if sources:
+            inventory = "\n".join(f"- {s}" for s in sources)
+        else:
+            inventory = "(none)"
         return (
+            f"[Indexed documents]\n{inventory}\n\n"
             f"[Retrieved excerpts]\n{retrieval_block}\n\n"
             f"[User]\n{user_message}"
         )

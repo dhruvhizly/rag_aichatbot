@@ -55,6 +55,9 @@ class RAGService:
     def session_has_indexed_documents(self, session_id: str) -> bool:
         return self._index.has_session(session_id)
 
+    def list_sources(self, session_id: str) -> list[str]:
+        return self._index.list_sources(session_id)
+
     def retrieval_for_chat(self, session_id: str, query: str) -> str:
         block, _ = self.retrieval_and_presence(session_id, query)
         return block

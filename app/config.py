@@ -17,11 +17,13 @@ class Settings(BaseSettings):
     debug: bool = False
     upload_dir: str = "uploads"
     chroma_db_dir: str = "chroma_db"
-    chunk_size: int = 600
-    chunk_overlap: int = 80
+    chunk_size: int = 400
+    chunk_overlap: int = 50
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_cache_dir: str = "models"
-    rag_top_k: int = 2
+    rag_top_k: int = 1
+    rag_rerank_pool: int = 5
+    reranker_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     rag_min_relevance_score: float = 0.06
     history_max_turns: int = 3
     llm_num_ctx: int = 2048

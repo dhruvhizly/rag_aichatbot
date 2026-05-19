@@ -25,12 +25,24 @@ settings = get_settings()
 async def lifespan(app: FastAPI):
     import asyncio
 
+    from app.services.chitchat_classifier import prewarm as prewarm_chitchat
     from app.services.embeddings import prewarm as prewarm_embeddings
     from app.services.llm_service import LLMService
     from app.services.rag_registry import get_rag_service
+    from app.services.reranker import prewarm as prewarm_reranker
 
     logger.info("Pre-warming embeddings...")
     prewarm_embeddings()
+    logger.info("Pre-warming chitchat corpus...")
+    try:
+        prewarm_chitchat()
+    except Exception:
+        logger.exception("Chitchat prewarm failed (continuing)")
+    logger.info("Pre-warming reranker...")
+    try:
+        prewarm_reranker()
+    except Exception:
+        logger.exception("Reranker prewarm failed (continuing)")
     logger.info("Pre-warming Chroma index...")
     get_rag_service()
     logger.info("Pre-warming Ollama model...")

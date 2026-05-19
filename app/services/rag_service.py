@@ -6,6 +6,7 @@ from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from app.config import get_settings
+from app.services.reranker import rerank
 from app.services.vector_store import DocumentIndex
 from app.utils.file_loader import extract_pages
 
@@ -25,6 +26,7 @@ class RAGService:
         settings = get_settings()
         self._index = index
         self._top_k = settings.rag_top_k
+        self._rerank_pool = max(settings.rag_rerank_pool, settings.rag_top_k)
         self._splitter = RecursiveCharacterTextSplitter(
             chunk_size=settings.chunk_size,
             chunk_overlap=settings.chunk_overlap,
@@ -68,10 +70,11 @@ class RAGService:
         if not has_docs:
             result = (_NO_FILES, False)
         else:
-            docs = self._index.similarity_search(session_id, query, self._top_k)
+            docs = self._index.similarity_search(session_id, query, self._rerank_pool)
             if not docs:
                 result = (_NO_CHUNKS, True)
             else:
+                docs = rerank(query, docs, self._top_k)
                 parts = [f"[Excerpt {i}]\n{block}" for i, block in enumerate(docs, start=1)]
                 result = ("\n\n".join(parts), True)
 

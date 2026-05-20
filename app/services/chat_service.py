@@ -470,13 +470,59 @@ class ChatService:
         doc_session: bool,
         sources: list[str],
     ) -> str:
-        if sources:
-            inventory = "\n".join(f"- {s}" for s in sources)
+        product_names = _sources_to_product_names(sources)
+        if product_names:
+            inventory = "\n".join(f"- {name}" for name in product_names)
         else:
             inventory = "(none)"
         return (
-            f"[Indexed documents]\n{inventory}\n\n"
+            f"[Available products]\n{inventory}\n\n"
             f"[Retrieved excerpts]\n{retrieval_block}\n\n"
             f"[User]\n{user_message}"
         )
+
+
+_FILENAME_NOISE_RE = re.compile(
+    r"\b("
+    r"operator'?s?|user'?s?|owner'?s?|"
+    r"manuals?|guide|guides|instructions?|handbook|"
+    r"datasheets?|spec|specs|specification|specifications|"
+    r"document|documents|doc|docs|"
+    r"brochure|catalog|catalogue|reference"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def _filename_to_product_name(filename: str) -> str | None:
+    """Convert a raw filename into a clean product/device name.
+
+    Strips extension, removes manual/datasheet noise words, and normalizes
+    separators. Returns None if nothing meaningful remains.
+    """
+    stem = re.sub(r"\.[A-Za-z0-9]{1,5}$", "", filename).strip()
+    cleaned = _FILENAME_NOISE_RE.sub(" ", stem)
+    cleaned = cleaned.replace("_", " ").replace("-", " ")
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" /-_")
+    if not cleaned:
+        return None
+    if cleaned.isdigit():
+        return None
+    return cleaned
+
+
+def _sources_to_product_names(sources: list[str]) -> list[str]:
+    """Map a list of source filenames to deduped, ordered product names."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for src in sources:
+        name = _filename_to_product_name(src)
+        if not name:
+            continue
+        key = name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(name)
+    return out
  

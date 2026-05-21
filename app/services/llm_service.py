@@ -5,8 +5,9 @@ from ollama import AsyncClient
 
 from app.config import get_settings
 
-_PROMPT_PATH = Path(__file__).resolve().parent.parent / "prompts" / "system_prompt.txt"
-SYSTEM_PROMPT = _PROMPT_PATH.read_text(encoding="utf-8").strip()
+_PROMPT_DIR = Path(__file__).resolve().parent.parent / "prompts"
+SYSTEM_PROMPT = (_PROMPT_DIR / "system_prompt.txt").read_text(encoding="utf-8").strip()
+CLASSIFIER_TEMPLATE = (_PROMPT_DIR / "relevance_classifier.txt").read_text(encoding="utf-8").strip()
 
 
 class LLMService:

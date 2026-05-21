@@ -8,7 +8,7 @@ from typing import AsyncGenerator
 
 from app.config import get_settings
 from app.services.chitchat_classifier import is_semantic_chitchat
-from app.services.llm_service import SYSTEM_PROMPT, LLMService
+from app.services.llm_service import SYSTEM_PROMPT, CLASSIFIER_TEMPLATE, LLMService
 from app.services.rag_registry import get_rag_service
 
 logger = logging.getLogger(__name__)
@@ -373,6 +373,20 @@ class ChatService:
             )
         else:
             embed_query = user_message
+
+        # Relevance Classifier: check if the query is relevant to the documents or motives
+        classifier_prompt = f"{CLASSIFIER_TEMPLATE}\n\nUser query: {embed_query}"
+        is_relevant_resp = await self._llm.chat([
+            {"role": "user", "content": classifier_prompt}
+        ])
+        
+        if is_relevant_resp.strip().lower().startswith("no"):
+            generic_reply = "I am sorry, but I can only assist with questions related to my provided documents and intended purpose."
+            yield ("token", generic_reply)
+            history.append({"role": "user", "content": user_message})
+            history.append({"role": "assistant", "content": generic_reply})
+            self._trim_history(history)
+            return
 
         # Full RAG path with cycling status messages.
         queue: asyncio.Queue = asyncio.Queue()

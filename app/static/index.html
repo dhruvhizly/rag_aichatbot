@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>RAG Chatbot Demo</title>
+
+    <!-- Markdown Parser and HTML Sanitizer -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+
     <style>
       :root {
         --bg: #0f1115;
@@ -137,10 +142,15 @@
         max-width: 760px;
         padding: 10px 14px;
         border-radius: 10px;
-        white-space: pre-wrap;
         line-height: 1.5;
         font-size: 14px;
       }
+
+      /* Updated User Message to handle line breaks without full Markdown */
+      .msg.user .msg-content {
+        white-space: pre-wrap;
+      }
+
       .msg.user {
         background: var(--user);
         align-self: flex-end;
@@ -149,6 +159,7 @@
         background: var(--bot);
         align-self: flex-start;
         border: 1px solid var(--border);
+        width: 100%; /* Give it breathing room for tables/code */
       }
       .msg.error {
         background: #3a1f23;
@@ -162,6 +173,64 @@
         margin-bottom: 4px;
         text-transform: uppercase;
         letter-spacing: 0.5px;
+      }
+
+      /* Markdown Styles inside the Chat Bubble */
+      .msg-content {
+        word-wrap: break-word;
+      }
+      .msg-content p {
+        margin: 0 0 12px 0;
+      }
+      .msg-content p:last-child {
+        margin-bottom: 0;
+      }
+      .msg-content pre {
+        background: #0b1016;
+        padding: 12px;
+        border-radius: 6px;
+        overflow-x: auto;
+        margin: 10px 0;
+        border: 1px solid var(--border);
+      }
+      .msg-content code {
+        font-family:
+          ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+          monospace;
+        background: #0b1016;
+        padding: 2px 5px;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+      .msg-content pre code {
+        padding: 0;
+        background: transparent;
+      }
+      .msg-content table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 10px 0;
+      }
+      .msg-content th,
+      .msg-content td {
+        border: 1px solid var(--border);
+        padding: 8px 12px;
+        text-align: left;
+      }
+      .msg-content th {
+        background: var(--panel-2);
+        font-weight: 600;
+      }
+      .msg-content ul,
+      .msg-content ol {
+        margin: 10px 0;
+        padding-left: 24px;
+      }
+      .msg-content blockquote {
+        border-left: 4px solid var(--accent);
+        margin: 10px 0;
+        padding-left: 12px;
+        color: var(--muted);
       }
 
       form#composer {
@@ -299,6 +368,12 @@
     </main>
 
     <script>
+      // Configure marked.js to break lines nicely
+      marked.setOptions({
+        breaks: true,
+        gfm: true,
+      });
+
       const API_BASE = "/api";
       const messagesEl = document.getElementById("messages");
       const inputEl = document.getElementById("input");
@@ -312,11 +387,22 @@
       function addMessage(role, text) {
         const div = document.createElement("div");
         div.className = "msg " + role;
+
         const label = document.createElement("span");
         label.className = "label";
         label.textContent = role;
-        const body = document.createElement("span");
-        body.textContent = text;
+
+        // Changed to a DIV so block-level Markdown elements (like <p>, <pre>) render correctly
+        const body = document.createElement("div");
+        body.className = "msg-content";
+
+        if (role === "user") {
+          body.textContent = text;
+        } else {
+          // Initialize AI message as empty, will be populated by the stream
+          body.innerHTML = "";
+        }
+
         div.appendChild(label);
         div.appendChild(body);
         messagesEl.appendChild(div);
@@ -400,11 +486,11 @@
 
           addMessage("user", text);
           const botBody = addMessage("assistant", "");
+
           const setStatusLine = (msg) => {
             if (!statusEl) {
               statusEl = document.createElement("span");
               statusEl.className = "status-line";
-              // Insert above the loader so the order is: status, then dots.
               if (loaderActive && loader && loader.parentElement) {
                 loader.parentElement.insertBefore(statusEl, loader);
               } else {
@@ -413,9 +499,11 @@
             }
             statusEl.textContent = msg;
           };
+
           const loader = addLoader(botBody.parentElement);
           let loaderActive = true;
           let statusEl = null;
+
           const stopLoader = () => {
             if (loaderActive) {
               loader.remove();
@@ -436,6 +524,7 @@
                 session_id: sessionEl.value || "default",
               }),
             });
+
             if (!res.ok || !res.body) {
               stopLoader();
               botBody.parentElement.classList.add("error");
@@ -448,6 +537,9 @@
             const decoder = new TextDecoder();
             let buffer = "";
             let gotError = false;
+
+            // NEW: Accumulate the raw markdown text so we can re-parse the full string
+            let rawMarkdown = "";
 
             while (true) {
               const { done, value } = await reader.read();
@@ -470,6 +562,7 @@
                     dataLines.push(line.slice(5).replace(/^ /, ""));
                 }
                 const data = dataLines.join("\n");
+
                 if (eventType === "error") {
                   stopLoader();
                   gotError = true;
@@ -482,9 +575,15 @@
                   continue;
                 }
                 if (data === "[DONE]") continue;
+
                 if (!gotError) {
                   stopLoader();
-                  botBody.textContent += data;
+                  // 1. Accumulate raw markdown text
+                  rawMarkdown += data;
+                  // 2. Parse markdown to HTML, then sanitize it, then render it
+                  botBody.innerHTML = DOMPurify.sanitize(
+                    marked.parse(rawMarkdown),
+                  );
                 }
                 messagesEl.scrollTop = messagesEl.scrollHeight;
               }

@@ -1,0 +1,359 @@
+================================================================================
+DOCUMENT ID: radar-arpa-sim-001
+SOURCE: ARI RADAR/ARPA Simulator — Product Knowledge Base
+VERSION: 1.0
+CATEGORY: Maritime Training Equipment / Navigation Simulators
+TAGS: RADAR, ARPA, IMO, STCW, collision avoidance, target tracking, navigation,
+      simulator, training, OEM, emulated radar, model course 1.07, model course 1.08
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: PRODUCT IDENTITY
+--------------------------------------------------------------------------------
+
+Product Name: ARI RADAR/ARPA Simulator
+Full Name: ARI Radar and Automatic Radar Plotting Aid Simulator
+Product Type: Maritime Training Simulator — Navigation / Radar
+Primary Use: IMO-compliant training for radar and automatic radar plotting aids
+Manufacturer: ARI (Applied Research International — maritime simulation systems)
+
+The ARI RADAR/ARPA Simulator is a dedicated training platform designed to
+develop and assess full competency in the use of shipboard radar and automatic
+radar plotting aid systems. It is used to train naval and marine personnel at
+all levels in radar operation, target tracking, and collision avoidance across
+all weather and visibility conditions.
+
+--------------------------------------------------------------------------------
+SECTION 2: PRODUCT OVERVIEW
+--------------------------------------------------------------------------------
+
+The ARI RADAR/ARPA Simulator is built to comply with IMO performance standards
+for radar equipment on seagoing vessels. It is designed to meet IMO Model
+Courses 1.07 and 1.08, providing a structured, standards-aligned training
+pathway for maritime personnel.
+
+The simulator supports simulator-based training and assessment in line with
+STCW 2010 requirements. It can be configured with real OEM (Original Equipment
+Manufacturer) radar systems or high-fidelity emulated radar sets, giving
+training institutions flexibility in how they deliver radar competency programmes.
+
+The RADAR/ARPA Simulator is a specialised training tool engineered to ensure
+that naval and marine personnel are fully competent in the use of radio
+detecting and ranging (RADAR) and automatic radar plotting aids (ARPA).
+Compliance is at the heart of this system, strictly adhering to IMO performance
+standards for equipment used on seagoing vessels.
+
+By aligning with IMO Model Courses 1.07 and 1.08, the simulator provides a
+structured path for trainees to achieve the certification required by STCW 2010,
+ensuring that operators can accurately detect, track, and avoid collisions in
+all weather and visibility conditions.
+
+--------------------------------------------------------------------------------
+SECTION 3: WHAT IS RADAR AND ARPA?
+--------------------------------------------------------------------------------
+
+3.1 RADAR (Radio Detecting And Ranging)
+
+RADAR is an electronic navigation system used aboard ships to detect the
+presence, range, bearing, and movement of other vessels, landmasses, and
+navigational hazards. It operates by transmitting radio waves and analysing
+the echoes returned from objects in the surrounding environment.
+
+At sea, radar is a primary tool for:
+- Collision avoidance in restricted visibility (fog, rain, night)
+- Coastal and harbour navigation
+- Monitoring vessel traffic in busy waterways
+- Detecting navigational marks and fixed hazards
+
+3.2 ARPA (Automatic Radar Plotting Aid)
+
+ARPA is a computerised system integrated with radar that automatically tracks
+targets detected on the radar display. It calculates and continuously updates
+each target's course, speed, closest point of approach (CPA), and time to
+closest point of approach (TCPA).
+
+ARPA provides navigators with:
+- Automated tracking of multiple targets simultaneously
+- Collision threat assessment for each tracked target
+- Trial manoeuvre capability to evaluate avoidance actions before execution
+- Reduced workload and improved situational awareness compared to manual plotting
+
+Both RADAR and ARPA proficiency are mandatory under the STCW Convention for
+officers in charge of a navigational watch.
+
+--------------------------------------------------------------------------------
+SECTION 4: CERTIFICATIONS AND COMPLIANCE
+--------------------------------------------------------------------------------
+
+4.1 IMO PERFORMANCE STANDARDS COMPLIANCE
+
+The ARI RADAR/ARPA Simulator is fully compliant with IMO (International Maritime
+Organization) performance standards for radar equipment on seagoing vessels.
+
+IMO performance standards define the minimum technical and operational
+requirements that radar and ARPA equipment must meet when fitted aboard ships
+subject to the SOLAS (Safety of Life at Sea) Convention. By building the
+simulator to these standards, the training environment accurately reflects the
+behaviour, capabilities, and limitations of compliant shipboard equipment.
+
+Compliance with IMO performance standards ensures:
+- Training fidelity matches real operational equipment
+- Competencies developed in the simulator are directly transferable to the vessel
+- The simulator is accepted by maritime administrations as a valid training tool
+
+4.2 STCW 2010 COMPLIANCE
+
+The ARI RADAR/ARPA Simulator meets STCW 2010 requirements for simulator-based
+training and assessment.
+
+The Standards of Training, Certification and Watchkeeping for Seafarers (STCW)
+Convention, as amended by the Manila Amendments of 2010, mandates specific
+competency standards for navigational officers. Radar and ARPA operation are
+core competencies under STCW Table A-II/1 (officer in charge of a navigational
+watch) and related tables.
+
+STCW 2010 compliance means:
+- Training delivered on the simulator satisfies mandatory international requirements
+- Certificates of proficiency issued following simulator-based training are
+  globally recognised by flag states and port state control authorities
+- The simulator supports both initial certification and revalidation training
+
+4.3 IMO MODEL COURSE 1.07 — RADAR NAVIGATION AT OPERATIONAL LEVEL
+
+The simulator is designed to directly support IMO Model Course 1.07: Radar
+Navigation, Radar Plotting and Use of ARPA at the Operational Level.
+
+Model Course 1.07 covers:
+- Basic radar operation and interpretation
+- Manual plotting of radar targets
+- Understanding radar limitations and sources of error
+- Use of radar in collision avoidance in compliance with COLREGs
+- Operational-level ARPA use including target acquisition and tracking
+
+This course is aimed at officers of the watch and deck officers at the
+operational level of responsibility.
+
+4.4 IMO MODEL COURSE 1.08 — RADAR NAVIGATION AT MANAGEMENT LEVEL
+
+The simulator also supports IMO Model Course 1.08: Radar Navigation, Radar
+Plotting and Use of ARPA at the Management Level.
+
+Model Course 1.08 covers:
+- Advanced radar and ARPA operation
+- Complex collision avoidance scenarios involving multiple vessels
+- Evaluation and supervision of watchkeeping personnel using radar
+- Use of radar as a primary tool for navigational decision-making at the
+  management level of responsibility
+
+This course is aimed at masters, chief mates, and officers at the management
+level of responsibility.
+
+--------------------------------------------------------------------------------
+SECTION 5: KEY FEATURES
+--------------------------------------------------------------------------------
+
+5.1 IMO COMPLIANCE
+The simulator is fully compliant with IMO performance standards for radar
+equipment on seagoing vessels. This ensures the simulated radar behaviour
+accurately mirrors that of real, compliant shipboard radar systems, making
+skills and competencies developed in training directly applicable at sea.
+
+5.2 STCW CERTIFICATION
+The simulator meets STCW 2010 requirements for simulator-based training and
+assessment. Training delivered on the system supports the formal certification
+of navigational officers under the internationally mandated STCW Convention,
+with certificates recognised by maritime authorities worldwide.
+
+5.3 DIVERSE EQUIPMENT OPTIONS
+The simulator can be configured with real OEM (Original Equipment Manufacturer)
+radar equipment or high-fidelity emulated radar sets. This provides training
+institutions with flexibility to:
+- Use authentic manufacturer hardware for maximum operational realism
+- Deploy emulated systems for cost-effective, scalable training delivery
+- Match the specific radar brands and types used by their trainees' employers
+
+5.4 COMPETENCE ASSESSMENT
+The simulator includes built-in tools for testing and assessing operator
+proficiency. Instructors can:
+- Set standardised assessment scenarios
+- Monitor and record trainee performance in real time
+- Generate competency reports aligned to STCW assessment criteria
+- Provide objective, evidence-based feedback to trainees
+
+5.5 MODEL COURSE ALIGNMENT
+The simulator directly supports IMO Model Courses 1.07 (operational level) and
+1.08 (management level), covering the full range of radar and ARPA competencies
+from initial qualification through to advanced management-level proficiency.
+Course content, scenario design, and assessment tools are aligned to IMO model
+course objectives.
+
+5.6 REALISTIC ARPA PLOTTING
+The simulator provides accurate ARPA plotting for target tracking and collision
+avoidance. Trainees work with realistic representations of:
+- Multi-target acquisition and tracking
+- CPA and TCPA calculations
+- Collision avoidance decision-making in compliance with COLREGs
+- Trial manoeuvre functionality to evaluate the effect of course and speed changes
+  before committing to an avoidance action
+
+--------------------------------------------------------------------------------
+SECTION 6: TRAINING CAPABILITIES
+--------------------------------------------------------------------------------
+
+6.1 TARGET AUDIENCE
+The ARI RADAR/ARPA Simulator is designed for naval and marine personnel at
+all levels, including:
+- Officer cadets and navigation students undertaking initial radar training
+- Officers of the watch seeking STCW radar certification at operational level
+- Senior officers and masters undertaking management-level radar certification
+- Personnel undertaking STCW revalidation and refresher training
+- Maritime instructors and assessors delivering accredited radar courses
+
+6.2 OPERATIONAL-LEVEL TRAINING (IMO MODEL COURSE 1.07)
+Trainees develop foundational and operational radar competencies:
+- Correct operation and interpretation of radar displays
+- Understanding of radar limitations including blind sectors, sea and rain clutter
+- Manual and ARPA-assisted target plotting
+- Collision avoidance using radar in compliance with COLREGs
+- Use of parallel index lines for coastal navigation
+- Radar navigation in restricted visibility
+
+6.3 MANAGEMENT-LEVEL TRAINING (IMO MODEL COURSE 1.08)
+Trainees develop advanced radar competencies for management-level responsibility:
+- Complex multi-vessel collision avoidance scenarios
+- Assessment and supervision of watchkeeping officer radar competency
+- Advanced ARPA interpretation and decision-making under high traffic density
+- Integration of radar with ECDIS and other navigational systems
+- Radar use in pilotage waters and restricted channels
+
+6.4 SCENARIO-BASED TRAINING
+Instructors can configure scenarios to include:
+- Varying weather and visibility conditions (fog, rain, restricted visibility)
+- High traffic density environments (TSS, port approaches, straits)
+- Multiple simultaneous collision threats requiring prioritised responses
+- Coastal and open ocean navigation challenges
+- Night-time and dawn/dusk scenarios
+
+6.5 COLLISION AVOIDANCE TRAINING
+A core focus of the simulator is developing proficiency in collision avoidance
+in compliance with the International Regulations for Preventing Collisions at
+Sea (COLREGs). Trainees learn to:
+- Assess collision risk using CPA and TCPA data
+- Determine the correct action required by COLREGs rules
+- Execute and monitor collision avoidance manoeuvres
+- Resume course after a collision avoidance situation has been resolved
+
+--------------------------------------------------------------------------------
+SECTION 7: TECHNICAL ENVIRONMENT
+--------------------------------------------------------------------------------
+
+7.1 EQUIPMENT CONFIGURATION OPTIONS
+
+Real OEM Equipment:
+The simulator can be fitted with genuine radar hardware from original equipment
+manufacturers. This provides the highest level of operational realism, as
+trainees interact with the exact controls, displays, and interfaces they will
+use aboard the vessels they serve on.
+
+Emulated Radar Systems:
+High-fidelity emulated radar sets replicate the look, feel, and behaviour of
+real radar systems in software. Emulated systems allow training institutions to
+represent multiple radar types and manufacturers within a single training
+environment, increasing versatility and cost-effectiveness.
+
+7.2 ARPA FUNCTIONALITY REPLICATED
+- Automatic and manual target acquisition
+- Multi-target tracking (simultaneous tracking of multiple contacts)
+- Continuous calculation and display of CPA and TCPA
+- Vector display (true and relative motion modes)
+- Trial manoeuvre function
+- Guard zones and collision alarm generation
+- Target data readout (course, speed, CPA, TCPA, bearing, range)
+
+7.3 RADAR DISPLAY MODES
+- True motion and relative motion display
+- North-up, course-up, and head-up orientation
+- Adjustable range scales
+- Electronic Bearing Lines (EBL) and Variable Range Markers (VRM)
+- Parallel Index (PI) lines for coastal navigation
+
+--------------------------------------------------------------------------------
+SECTION 8: COMPLIANCE SUMMARY
+--------------------------------------------------------------------------------
+
+Certification / Standard          | Status           | Detail
+----------------------------------|------------------|-----------------------------
+IMO Performance Standards (Radar) | Fully Compliant  | Seagoing vessel radar standards
+STCW 2010                         | Fully Compliant  | Simulator-based training reqs
+IMO Model Course 1.07             | Fully Supported  | Operational level radar/ARPA
+IMO Model Course 1.08             | Fully Supported  | Management level radar/ARPA
+
+--------------------------------------------------------------------------------
+SECTION 9: USE CASES AND APPLICATIONS
+--------------------------------------------------------------------------------
+
+- Maritime academies and nautical colleges delivering IMO Model Course 1.07
+  and 1.08 radar certification programmes
+- Shipping company training centres for officer competency maintenance
+  and STCW revalidation
+- Naval training establishments requiring radar and ARPA proficiency assessment
+- Initial certification training for officers of the watch
+- Management-level certification for masters and chief mates
+- Refresher and revalidation training for experienced navigational officers
+- Collision avoidance and COLREGs practical training
+- Instructor-led competency assessment against STCW criteria
+
+--------------------------------------------------------------------------------
+SECTION 10: FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: What standards does the ARI RADAR/ARPA Simulator comply with?
+A: The simulator is fully compliant with IMO performance standards for radar
+equipment on seagoing vessels and meets STCW 2010 requirements for simulator-
+based training and assessment. It directly supports IMO Model Courses 1.07
+and 1.08.
+
+Q: What is the difference between Model Course 1.07 and 1.08?
+A: IMO Model Course 1.07 covers radar navigation and ARPA use at the operational
+level, aimed at officers of the watch. IMO Model Course 1.08 covers the same
+subjects at the management level, aimed at masters and chief mates who must
+demonstrate advanced competency and the ability to supervise others.
+
+Q: Can the simulator be configured with our existing radar brand?
+A: Yes. The simulator supports configuration with real OEM radar equipment from
+original manufacturers, allowing training institutions to match the specific
+radar systems used by their trainees' employers. High-fidelity emulated radar
+sets are also available as an alternative.
+
+Q: Is the simulator suitable for STCW revalidation training?
+A: Yes. The simulator meets STCW 2010 requirements for simulator-based training
+and assessment, making it suitable for both initial certification and periodic
+revalidation of radar and ARPA competencies.
+
+Q: What collision avoidance capabilities does the simulator include?
+A: The simulator provides full ARPA plotting with automatic and manual target
+acquisition, continuous CPA and TCPA calculation, trial manoeuvre functionality,
+guard zones, and collision alarm generation. Scenarios can be configured with
+multiple simultaneous collision threats in compliance with COLREGs training
+requirements.
+
+Q: Does the simulator support both OEM and emulated radar systems?
+A: Yes. Training institutions can choose to equip the simulator with genuine
+OEM radar hardware for maximum realism, or deploy high-fidelity emulated radar
+sets for greater flexibility and cost-effectiveness. Both options deliver
+IMO-compliant training outcomes.
+
+Q: What weather and environmental conditions can be simulated?
+A: The simulator supports a wide range of conditions including fog, rain, and
+restricted visibility, high-density traffic scenarios, port approaches, traffic
+separation schemes, coastal and open ocean environments, and day, night, and
+dawn/dusk lighting conditions.
+
+Q: Who is the simulator designed to train?
+A: The simulator is designed for naval and marine personnel at all levels,
+from officer cadets in initial radar training through to masters and chief mates
+undertaking management-level certification or revalidation.
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT — radar-arpa-sim-001
+--------------------------------------------------------------------------------

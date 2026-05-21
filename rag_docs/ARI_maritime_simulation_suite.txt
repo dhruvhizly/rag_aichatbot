@@ -1,0 +1,704 @@
+================================================================================
+DOCUMENT ID: ari-maritime-suite-001
+SOURCE: ARI Simulation — Maritime Simulation Suite Product Knowledge Base
+VERSION: 1.0
+CATEGORY: Maritime Training Equipment / Simulation Suite Overview
+TAGS: ARI Simulation, Zen Technologies, maritime simulation, navigation simulator,
+      marine training, DNV Class A, STCW, IMO, ECDIS, GMDSS, RADAR, ARPA, VTS,
+      tug simulation, engine room, cargo handling, offshore, ship handling,
+      full mission simulator, bridge simulator, cloud simulation
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: COMPANY IDENTITY
+--------------------------------------------------------------------------------
+
+Company Name: Applied Research International (ARI) Simulation
+Full Name: Applied Research International Pvt. Ltd.
+Parent Company: Zen Technologies Limited
+Tagline: YOUR WORLD — OUR WORLD®
+Website: www.arisimulation.com
+
+ARI Simulation is the naval and marine simulation arm of Zen Technologies Limited.
+It is a global leader in the production of sophisticated simulation and virtual
+reality training solutions for the defence, marine, and offshore industries.
+
+ARI offices and representatives are located worldwide. Key office locations:
+
+USA:
+Bishop Ranch 3, 2603 Camino Ramon, Suite 200
+San Ramon, California, 94583, USA
+Tel: +1 408 338 6093
+Email: ariusa@arisimulation.com
+
+Singapore:
+14 Robinson Road, #08-01A, Far East Finance Building
+Singapore 048545
+Email: arisingapore@arisimulation.com
+
+India (Head Office):
+E-44/14, Okhla Industrial Area, Okhla Phase II
+New Delhi - 110020, India
+Tel: +91-11-41326882
+Email: info@arisimulation.com
+
+General Sales Enquiries: info@arisimulation.com
+
+--------------------------------------------------------------------------------
+SECTION 2: COMPANY OVERVIEW
+--------------------------------------------------------------------------------
+
+Applied Research International (ARI) is at the forefront of maritime simulation
+innovation. Its simulators are meticulously crafted to adhere to the highest
+international standards set by respected industry authorities including:
+
+- IMO (International Maritime Organization)
+- STCW 2010 (Standards of Training, Certification and Watchkeeping for Seafarers)
+- The Nautical Institute (NI)
+- OPITO (Offshore Petroleum Industry Training Organisation)
+- AMERC (Association of Marine Electronics and Radio Colleges)
+- IMCA (International Marine Contractors Association)
+- DNV (Det Norske Veritas)
+
+ARI's marine, offshore, and crane simulation solutions have achieved DNV Class A
+Standard certification — the highest level of simulator certification awarded by
+Det Norske Veritas. ARI has also been audited and certified to ISO 14001 and
+ISO 9001 standards, which include assessment of confidential data protection
+systems.
+
+ARI's product portfolio is organised into three primary suites:
+- Marine & Offshore Suite (over 20 types of marine and offshore simulators)
+- Defence Suite (simulators for armed forces across weapon systems, air assets,
+  and naval platforms)
+- Ports & Terminals Suite (over 30 types of crane simulators)
+
+The entire marine and offshore simulation range is DNV certified.
+
+Using ARI cloud systems, more than 75,000 certificates have been generated.
+ARI is among only three globally certified simulation companies approved by
+both IADC and IWCF for cloud-based assessment of drilling and well control
+operations.
+
+--------------------------------------------------------------------------------
+SECTION 3: WHAT IS THE MARITIME SIMULATION SUITE?
+--------------------------------------------------------------------------------
+
+The ARI Maritime Simulation Suite (also referred to as the Marine Suite or
+Marine & Logistics Simulation product portfolio) covers the entire range of
+marine operations including Bridge, Engine, Cargo, and Communication.
+
+The suite is designed to provide a complete maritime training ecosystem,
+where individual simulators can operate as standalone training platforms or
+be integrated into a unified multi-simulator complex for comprehensive,
+mission-oriented training exercises.
+
+The suite includes the following primary simulator categories relevant to
+navigation and communications training:
+
+NAVIGATION SIMULATORS:
+1. Full Mission Ship Handling / Navigation Simulator
+2. ECDIS Simulator
+3. RADAR / ARPA Simulator
+4. Tug Handling Simulator
+5. VTS (Vessel Traffic Service) Simulator
+6. GMDSS / Communications Simulator
+
+ENGINE AND MACHINERY SIMULATORS:
+7. Full Mission Engine Room Simulator
+8. Offshore Machinery Simulator
+
+CARGO AND PROCESS SIMULATORS:
+9. Liquid Cargo Handling / Process Simulator
+10. LNG and Methanol Bunkering Simulator
+
+OFFSHORE SIMULATORS:
+11. Full Mission Offshore Bridge Simulator
+12. Dynamic Positioning (DP) Simulator
+13. Anchor Handling Simulator
+14. Subsea / ROV Simulator
+
+DIGITAL AND CLOUD PLATFORMS:
+15. Cloud Based Simulation Training
+16. Automated Scenario / Simulation Based Assessment (ASBA)
+17. VR / AR / MR Based Simulator Training
+
+FEASIBILITY STUDIES:
+18. SAFEPORT — Port and Waterway Navigation Feasibility Studies
+
+--------------------------------------------------------------------------------
+SECTION 4: NAVIGATION SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+The navigation simulators within the ARI Maritime Simulation Suite form the
+core of the company's marine training offering. They are the primary tools
+used to train navigational officers, VTS operators, and communications personnel
+to the standards required by IMO, STCW 2010, and other internationally
+recognised certification bodies.
+
+All navigation simulators in the suite share the following characteristics:
+- Designed, built, and installed in accordance with IMO and STCW 2010 requirements
+- Approved by DNV to the highest Class A standards
+- Available in multiple configurations from desktop/part-task trainers to
+  large-scale full-mission installations
+- Capable of standalone operation or integration into multi-simulator complexes
+- Support both initial certification training and revalidation/refresher programmes
+
+4.1 FULL MISSION SHIP HANDLING / NAVIGATION SIMULATOR
+
+The ARI Full Mission Ship Manoeuvring Simulator is a complete maritime navigation
+training solution for all training needs related to navigation and ship handling.
+
+Key characteristics:
+- Designed, built, and installed in accordance with IMO, STCW 2010 requirements
+- Approved by DNV to Class A standard
+- Includes RADAR-ARPA, ECDIS, and full navigational equipment suite
+- Training conducted in an immersive atmosphere with full visual, instrument,
+  and aural cues
+- Available in configurations from tabletop and part-task trainers to large-scale
+  installations with 360-degree field of view
+- Supports specialised navigation operations including:
+  * Integrated Bridge Systems (IBS)
+  * Ice Navigation
+  * Ship-to-Ship operations
+  * Single Buoy Mooring (SBM) operations
+  * VTIS (Vessel Traffic and Information Service) operations
+
+4.2 ECDIS SIMULATOR
+
+The ARI ECDIS Simulator is a comprehensive training solution for Electronic Chart
+Display and Information System operations.
+
+Key characteristics:
+- Complies with the relevant requirements of STCW 2010 Manila Amendments
+- Meets STCW sections A-I/12, A-II/1, and A-II/2
+- Fulfils requirements of IMO Model Course 1.27 related to the use of simulation
+- Trains officers in the use of ECDIS as a primary means of navigation
+
+4.3 RADAR / ARPA SIMULATOR
+
+The ARI RADAR/ARPA Simulator provides IMO-compliant training in radar navigation
+and automatic radar plotting aid operation.
+
+Key characteristics:
+- Complies with IMO performance standards for radar equipment on seagoing vessels
+- Designed to meet IMO Model Courses 1.07 and 1.08
+- Suitable for competence training and assessment in radar operation in accordance
+  with STCW 2010 simulator-based training requirements
+- Supports both operational level (1.07) and management level (1.08) training
+- Available with real OEM radar equipment or high-fidelity emulated radar systems
+- Includes competence assessment tools for evaluating operator proficiency
+
+Full detail: see document radar-arpa-sim-001
+
+4.4 TUG HANDLING SIMULATOR
+
+The ARI Tug Handling Simulator provides a practical and realistic training
+platform for tug operators at all levels.
+
+Key characteristics:
+- Available in multiple configuration types
+- Closely resembles the layout and equipment of a modern tug manoeuvring station
+  and navigation bridge
+- Multiple tug types available including ASD (Azimuth Stern Drive) tugs
+- Sophisticated behavioural model ensures complex tug manoeuvres are performed
+  to a high degree of accuracy under various environmental and operational conditions
+- Includes dedicated emergency manoeuvre and response scenario training
+
+Full detail: see document tug-sim-001
+
+4.5 VTS (VESSEL TRAFFIC SERVICE) SIMULATOR
+
+The ARI VTS Simulator trains personnel in the management of vessel traffic
+in port, harbour, and coastal environments.
+
+Key characteristics:
+- Designed, built, and implemented to meet and exceed IALA model courses V-103
+- Provides a platform for consistent, quality training of VTS operating personnel
+- Trains candidates to deal with real-world vessel traffic management situations
+  under both normal and emergency conditions
+- Scenarios can be pre-prepared to fulfil specific training objectives
+- Scenario complexity is graded to meet the requirements of operators across
+  a wide spread of individual experience levels
+
+Full detail: see document vts-sim-001
+
+4.6 GMDSS / COMMUNICATIONS SIMULATOR
+
+The ARI GMDSS Simulator provides complete operational communications training
+using GMDSS equipment as found on marine and offshore vessels.
+
+Key characteristics:
+- Complies with STCW 2010 performance standards for simulators as defined in
+  Sections A-I/12 and B-I/12
+- Approved by DNV to the highest Class A Standard
+- Specific configurations are AMERC approved for official GMDSS certification
+- Provides an operating environment similar to operating a GMDSS station on a
+  modern ship
+- Suitable for training navigators at all levels in handling distress and routine
+  communications using satellite and terrestrial communication equipment
+
+Full detail: see document gmdss-sim-001
+
+--------------------------------------------------------------------------------
+SECTION 5: ENGINE ROOM AND MACHINERY SIMULATORS
+--------------------------------------------------------------------------------
+
+5.1 FULL MISSION ENGINE ROOM SIMULATOR
+
+The ARI Full Mission Engine Room Simulator is a multi-functional training solution
+suitable for training Marine Engineers at Watch-Keeping, Operational, and
+Management levels.
+
+Key characteristics:
+- Multiple propulsion and engine room types modelled including:
+  * Slow, medium, and high-speed diesel engines
+  * Electric propulsion
+  * Azimuth propulsion
+  * Waterjet engines
+- Engine room components include:
+  * Main Engine Control Room
+  * Electrical Switch Board
+  * Simulated Machinery Space with Mimic Pipeline Panel
+  * Local Operating Stations
+- Specialised systems available including:
+  * High Voltage systems
+  * Power Management systems
+  * Fire Fighting systems
+  * Offshore vessel-specific subsystems for handling mud, brine, and cement
+
+New Engine Models and Green Fuel / Decarbonisation options available:
+- XDF (LNG)
+- ME-GIE (High Pressure Gas Injection — Ethane)
+- ME-LGI-M (Methanol)
+- ME-GA (Low Pressure LNG Gas Admission)
+- MEGI (High Pressure Gas Injection — LNG)
+- Medium Speed LNG Dual Fuel Diesel Electric Propulsion
+
+Emission control systems modelled:
+- HP SCR (High Pressure Selective Catalytic Reduction)
+- LP SCR (Low Pressure Selective Catalytic Reduction)
+- EGR (Exhaust Gas Recirculation — BP and TC)
+
+--------------------------------------------------------------------------------
+SECTION 6: CARGO AND PROCESS HANDLING SIMULATORS
+--------------------------------------------------------------------------------
+
+6.1 LIQUID CARGO HANDLING / PROCESS SIMULATOR
+
+The ARI Liquid Cargo Handling Simulator simulates real-time process flow control
+systems used in the storage and transfer of potentially hazardous bulk liquids
+from shore to ship and vice versa.
+
+Key characteristics:
+- Considered one of the most versatile and flexible liquid cargo training tools
+  in the world
+- Advanced training solution for officers at operational and management levels
+- Scalable: from single PC instructor-less solution to full mission configurations
+  with cargo control consoles, instructor stations, and mimic pipeline panels
+- Model library includes:
+  * Oil Tankers
+  * VLCC (Very Large Crude Carriers)
+  * Product Tankers
+  * Chemical Tankers
+  * LPG Carriers
+  * LNG Carriers
+- Each simulated vessel is equipped with a fully functional load calculator
+- Exceptionally powerful mathematical model drives fluid behaviour with accuracy
+  across the full range of conditions experienced during vessel cargo operations
+- Capable of training across the full range of situations from routine operations
+  to emergencies with catastrophic potential
+
+6.2 LNG AND METHANOL BUNKERING SIMULATOR
+
+Designed to advance training in liquefied natural gas and methanol operations.
+
+Key characteristics:
+- Covers LNG Bunkering (B Type Tank configurations)
+- Covers LNG Bunkering (C Type Tank configurations)
+- Covers Methanol Bunkering (ME-LGIM T1 configurations)
+- Designed for safer and more efficient bunkering process training
+
+--------------------------------------------------------------------------------
+SECTION 7: OFFSHORE SIMULATION SUITE
+--------------------------------------------------------------------------------
+
+7.1 FULL MISSION OFFSHORE BRIDGE SIMULATOR
+
+The ARI Full Mission Offshore Bridge Simulator recreates the complete experience
+of operating on the bridge of an offshore vessel.
+
+Key characteristics:
+- Both fore and aft bridge stations provided
+- Extremely high level fidelity visual system
+- Delivers an immersive virtual reality experience
+- Broad range of offshore vessel types including:
+  * PSV (Platform Supply Vessels)
+  * AHTSV (Anchor Handling Tug Supply Vessels)
+  * MPSV (Multi-Purpose Support Vessels)
+  * MSV (Marine Support Vessels)
+- Vessel models available with variety of control and propulsion systems including:
+  * Conventional telegraphs
+  * Azimuth controls
+  * Z-drives
+  * Thrusters
+  * Joystick controls
+
+7.2 DYNAMIC POSITIONING (DP) SIMULATOR
+
+The ARI Dynamic Positioning Simulator provides a powerful platform for DP
+training and certification.
+
+Key characteristics:
+- Fully complies with NI (Nautical Institute) and DNV Class A Standards
+- Scalable product available as:
+  * Standalone trainer in a classroom
+  * Multi-station configuration
+  * Integrated into the ARI Offshore Bridge Simulator for complete DP/DP-2
+    or DP-3 operations in a bridge environment
+- OEM DP systems from equipment manufacturers can be interfaced to the simulator
+  for clients requiring real DP hardware in their training programmes
+- Supports DP-1, DP-2, and DP-3 class operations training
+
+7.3 ANCHOR HANDLING SIMULATOR
+
+The ARI Anchor Handling Simulator is an add-on module for the Offshore Bridge
+Simulator providing complete anchor handling capabilities.
+
+Key characteristics:
+- Supports basic and advanced anchor handling operations
+- Physics-based simulation of the complete anchor handling process including:
+  * Transmission of anchor pattern, interpretation and planning
+  * Picking up pennant wires and anchors
+  * Deployment and retrieval of anchors in position
+- Full set of winch controls operating in parallel with vessel handling controls
+- Single and multiple vessel missions can be executed
+
+7.4 SUBSEA / ROV SIMULATOR
+
+The ARI ROV (Remotely Operated Vehicle) Simulator is certified by DNV to
+Class A Standard and meets IMCA guidelines for ROV simulator classes.
+
+Key characteristics:
+- Certified by DNV to the highest Class A Standard
+- Meets requirements for Class A simulator according to IMCA guidelines
+- Used by ROV manufacturers, operators, oil companies, and others for:
+  * Field visualisation (as built)
+  * Mission planning and dive plan development and evaluation
+  * Subsea equipment design and testing prior to field deployment
+  * Equipment-specific, mission-specific, and site-specific ROV pilot training
+- Allows pilots and potential pilots to gain 'stick time' without risking
+  equipment or tying up expensive field assets
+- Deployed on networked PCs with distributed processing
+- Supports multiple dynamic objects including two simultaneous ROV systems
+- Supports large umbilical lengths for deep water operations
+- Fully interactive manipulators
+
+7.5 OFFSHORE MACHINERY SIMULATOR
+
+The ARI Machinery Simulator recreates the propulsion and machinery plant of
+an offshore vessel.
+
+Key characteristics:
+- Comprehensive platform for training and assessment of operating personnel
+- Simulates all machinery-related processes of an offshore vessel
+- Fully supports conventional and diesel electric azimuth propulsion systems
+- Supports offshore systems including:
+  * FIFI (Fire Fighting) systems
+  * Cargo handling systems
+  * Hydraulic system controls
+  * Complete power management system
+- Entire machinery space available in 3D for use as a standalone familiarisation
+  platform or in fully interactive mode linked to the running simulation
+
+--------------------------------------------------------------------------------
+SECTION 8: DIGITAL AND CLOUD PLATFORMS
+--------------------------------------------------------------------------------
+
+8.1 CLOUD BASED SIMULATION TRAINING
+
+As part of its digital cloud initiative, all versions of simulators in ARI's
+portfolio are available through ARI's Cloud Based Simulation Training platform.
+
+Key characteristics:
+- ARI's Marine range of cloud-based simulation modules is DNV Approved
+- More than 75,000 certificates have been generated using ARI cloud systems
+- ARI is among only three globally certified simulation companies approved by
+  both IADC and IWCF for cloud-based assessment of drilling and well control
+- Delivery options include:
+  * Fully online — candidates need not visit an examination centre at any stage
+  * Digital examinations at authorised examination centres
+  * Hybrid versions combining online and centre-based delivery
+  * Supports all formats of written examinations including pen and paper
+  * All existing examination formats can be supported
+
+8.2 AUTOMATED SCENARIO / SIMULATION BASED ASSESSMENT (ASBA)
+
+ARI's ASBA platform sets the standards for digital assessment in the maritime
+industry, overcoming limitations of existing assessment-based products.
+
+Key features:
+- Smart, adaptive, scenario-based question banks
+- Engagement monitoring
+- Dashboard for analysis
+- Report generation
+- Shorter test cycles and immediate results
+- Precise and fair scoring
+- Secure assessment environment
+- Enhanced and convenient candidate experience
+- Can be used for Training, Screening, Assessment, and Competency Development
+- Enhanced post-test analysis
+- Supports scenario-based adaptive testing for a range of industry verticals
+- Different levels of proctoring available
+
+8.3 VR / AR / MR BASED SIMULATOR TRAINING
+
+ARI's Mixed Reality (MR) solutions integrate physical and digital worlds for
+immersive, interactive simulations.
+
+VR Training:
+- Provides a wholly immersive and integrated training environment
+- Trainees familiarise with and gain appreciation of the working environment
+- Complete VR solution package includes:
+  * Wireless VR glasses (Head Mounted Display / Headset)
+  * Wireless handheld controllers
+  * ARI's custom VR Simulation software, customised per training module
+- Each training package features ultra-realistic visual display of machinery
+  components and a 360-degree immersive, interactive working environment
+- Trainees can virtually move through the space and perform operational functions
+  such as opening valves, turning knobs, pressing buttons, and moving levers
+
+8.4 HYBRID / BLENDED LEARNING CAPABILITY
+
+ARI simulators support hybrid and blended training delivery:
+- Remote trainees can fully engage in training, accessing the same functionalities
+  as on-site participants
+- Remote access includes video, RADAR, ECDIS, and other simulator functions
+- Instructors can monitor all participants simultaneously (remote and physical)
+- Ensures a sustainable and future-proof training experience
+
+--------------------------------------------------------------------------------
+SECTION 9: FEASIBILITY STUDIES — SAFEPORT
+--------------------------------------------------------------------------------
+
+The ARI SAFEPORT programme provides simulation-based port and waterway
+feasibility studies.
+
+SAFEPORT is used for:
+- Greenfield and Brownfield port development projects
+- Harbour, berth, river, terminal, and inland waterway development
+- Studying the feasibility of safe navigational operation of intended vessel types
+  in a proposed manoeuvring area before large resources are committed
+
+SAFEPORT analyses include:
+- Ability of vessels to manoeuvre in approach channels and turning circles
+  safely under combined effects of current, wind, tide, and swell
+- Ability of vessels to arrive at and depart from proposed berths
+- Confirming the size, power, and number of tugs needed to assist vessels
+  during transit, turning, berthing, and unberthing, including emergency conditions
+- Ability of river boats and barge convoys to negotiate bends, turns, and
+  lock areas in river sections
+
+--------------------------------------------------------------------------------
+SECTION 10: INTEGRATED SIMULATION COMPLEX
+--------------------------------------------------------------------------------
+
+ARI Simulation's Multi-Simulator Simulation Complex is a cutting-edge training
+environment that seamlessly integrates multiple high-fidelity simulators into
+a unified ecosystem.
+
+This advanced system enables joint training across naval, air, land, and
+subsurface forces, connecting Bridge, Engine Room, Command and Control, and
+Platform Management Simulators for realistic, mission-oriented exercises.
+
+An integrated naval complex can include the following simulators operating
+together as a unified training environment:
+
+- Primary Warship Bridge Simulator
+- Secondary Warship Bridge Simulator
+- Fast Attack Craft (FAC) Simulator
+- GMDSS / Communications Simulator
+- Warship Machinery Simulators
+- Submarine Operations and Navigation Simulator
+- Deep Submergence Rescue Vehicle (DSRV) Simulator
+- ECDIS and RADAR/ARPA Room
+- Action Speed Tactical Trainer (ASTT)
+- Combat Information Centre (CIC) Simulator
+- Helicopter Control Simulator
+- Domain Awareness and Coastal Security Solution
+- Unified Simulation Control Centre
+
+For commercial maritime training, the integrated simulation complex connects:
+- Bridge Simulator (Ship Handling / Navigation)
+- Engine Room Simulator
+- Cargo Handling Simulator
+- GMDSS / Communications Simulator
+- VTS Simulator
+- Tug Handling Simulator
+
+--------------------------------------------------------------------------------
+SECTION 11: CERTIFICATIONS AND STANDARDS — FULL PORTFOLIO SUMMARY
+--------------------------------------------------------------------------------
+
+Standard / Body                  | Relevance to ARI Portfolio
+---------------------------------|---------------------------------------------
+DNV Class A                      | Entire marine and offshore simulator range
+                                 | certified to DNV Class A — the highest grade
+STCW 2010                        | Navigation, communications, and engine room
+                                 | simulators all meet STCW 2010 requirements
+IMO Performance Standards        | Navigation and communications simulators
+                                 | comply with IMO equipment standards
+IMO Model Course 1.07            | RADAR/ARPA Simulator (operational level)
+IMO Model Course 1.08            | RADAR/ARPA Simulator (management level)
+IMO Model Course 1.27            | ECDIS Simulator
+AMERC                            | GMDSS Simulator (specific configurations)
+IALA Model Course V-103          | VTS Simulator (meets and exceeds)
+NI (Nautical Institute)          | DP Simulator
+IMCA                             | ROV / Subsea Simulator (Class A)
+OPITO                            | Offshore training programmes
+IADC                             | Cloud-based drilling assessment
+IWCF                             | Cloud-based well control assessment
+ISO 9001                         | Company quality management certification
+ISO 14001                        | Company environmental management certification
+
+--------------------------------------------------------------------------------
+SECTION 12: PRODUCT PORTFOLIO AT A GLANCE
+--------------------------------------------------------------------------------
+
+MARINE SUITE — NAVIGATION SIMULATORS:
+- Full Mission Ship Handling / Navigation Simulator (IMO, STCW 2010, DNV Class A)
+- ECDIS Simulator (STCW 2010, IMO Model Course 1.27)
+- RADAR / ARPA Simulator (IMO, STCW 2010, Model Courses 1.07 and 1.08)
+- Tug Handling Simulator (Multiple configurations, ASD tugs)
+- VTS Simulator (IALA V-103)
+- GMDSS / Communications Simulator (STCW 2010, DNV Class A, AMERC)
+
+MARINE SUITE — ENGINE AND CARGO:
+- Full Mission Engine Room Simulator (Watch-keeping, operational, management)
+- Liquid Cargo Handling / Process Simulator (Oil, chemical, LPG, LNG tankers)
+- LNG and Methanol Bunkering Simulator
+
+OFFSHORE SUITE:
+- Full Mission Offshore Bridge Simulator (PSV, AHTSV, MPSV, MSV)
+- Dynamic Positioning Simulator (NI, DNV Class A, DP-1/2/3)
+- Anchor Handling Simulator (Add-on module)
+- Offshore Machinery Simulator
+- Subsea / ROV Simulator (DNV Class A, IMCA)
+
+DIGITAL AND CLOUD:
+- Cloud Based Simulation Training (DNV Approved, IADC, IWCF)
+- Automated Scenario / Simulation Based Assessment (ASBA)
+- VR / AR / MR Based Simulator Training
+- Hybrid / Blended Learning Capability
+
+FEASIBILITY STUDIES:
+- SAFEPORT — Port and Waterway Navigation Feasibility Programme
+
+PORTS AND TERMINALS (separate suite):
+- Crane Simulators (over 30 types: QC, RTG, RMG, SG, PC, SC, and others)
+- HEMM Simulators (Heavy Earth Moving Machinery for mining operations)
+
+DEFENCE SUITE (separate suite):
+- Naval Simulation Suite
+- Fast Attack Craft (FAC) Simulator
+- Submarine Operations and Navigation Simulator
+- Deep Submergence Rescue Vehicle (DSRV) Simulator
+- Action Speed Tactical Trainer (ASTT)
+- Combat Information Centre (CIC) Simulator
+- Helicopter Control Simulator
+- Warship Bridge and Machinery Simulators
+
+--------------------------------------------------------------------------------
+SECTION 13: FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: What is ARI Simulation and who owns it?
+A: Applied Research International (ARI) Simulation is the naval and marine
+simulation arm of Zen Technologies Limited. It is a global leader in simulation
+and virtual reality training solutions for the defence, marine, and offshore
+industries. Its tagline is "YOUR WORLD — OUR WORLD."
+
+Q: What certification standard does the entire ARI marine and offshore
+simulator range hold?
+A: The entire ARI marine and offshore simulation range is certified by DNV
+(Det Norske Veritas) to Class A Standard — the highest classification awarded
+for maritime training simulators. Individual products also hold additional
+certifications relevant to their specific application (STCW, AMERC, IALA,
+NI, IMCA, etc.).
+
+Q: What simulators does ARI offer for navigation training?
+A: ARI's navigation simulator range within the Maritime Simulation Suite includes
+the Full Mission Ship Handling Simulator, ECDIS Simulator, RADAR/ARPA Simulator,
+Tug Handling Simulator, VTS Simulator, and GMDSS/Communications Simulator.
+
+Q: Can ARI simulators be integrated into a single training complex?
+A: Yes. ARI's Multi-Simulator Simulation Complex integrates multiple simulators
+into a unified ecosystem, enabling joint training exercises that connect bridge,
+engine room, communications, VTS, and other simulators. Multiple simulator types
+can be networked for team-based, mission-oriented training.
+
+Q: Does ARI offer cloud-based simulation training?
+A: Yes. All versions of simulators in ARI's portfolio are available through
+ARI's Cloud Based Simulation Training platform. The marine range of cloud
+modules is DNV Approved. ARI is among only three globally certified companies
+approved by both IADC and IWCF for cloud-based drilling and well control
+assessment. More than 75,000 certificates have been generated using ARI cloud
+systems.
+
+Q: Do ARI simulators support remote and hybrid training delivery?
+A: Yes. ARI simulators support hybrid and blended learning, enabling remote
+trainees to fully engage in training alongside on-site participants. Remote
+participants can access video, RADAR, ECDIS, and other simulator functions,
+with instructors able to monitor all participants simultaneously.
+
+Q: What is the SAFEPORT programme?
+A: SAFEPORT is ARI's simulation-based port feasibility study programme. It
+analyses the safety and feasibility of vessel navigation and manoeuvring in
+proposed or existing port, harbour, berth, river, and waterway environments.
+It is used as part of port development projects to confirm safe operations
+before committing large resources to infrastructure development.
+
+Q: What offshore simulators does ARI offer?
+A: ARI's offshore simulation suite includes the Full Mission Offshore Bridge
+Simulator, Dynamic Positioning (DP) Simulator (NI and DNV Class A certified),
+Anchor Handling Simulator, Offshore Machinery Simulator, and Subsea/ROV
+Simulator (DNV Class A, IMCA compliant).
+
+Q: Does ARI offer simulators for engine room training?
+A: Yes. The ARI Full Mission Engine Room Simulator trains Marine Engineers at
+Watch-Keeping, Operational, and Management levels. It models multiple propulsion
+types including diesel, electric, azimuth, and waterjet engines, and includes
+new green fuel and decarbonisation engine models such as LNG, methanol, and
+dual-fuel configurations.
+
+Q: What is ARI's ASBA platform?
+A: ASBA (Automated Scenario/Simulation Based Assessment) is ARI's digital
+assessment platform for the maritime industry. It features adaptive scenario-
+based question banks, engagement monitoring, dashboard analysis, report
+generation, and multiple proctoring options. It can be used for training,
+screening, assessment, and competency development.
+
+Q: How do I contact ARI Simulation?
+A: General enquiries: info@arisimulation.com
+USA office: ariusa@arisimulation.com / +1 408 338 6093
+Singapore office: arisingapore@arisimulation.com
+Website: www.arisimulation.com
+
+--------------------------------------------------------------------------------
+SECTION 14: CROSS-REFERENCE TO INDIVIDUAL SIMULATOR DOCUMENTS
+--------------------------------------------------------------------------------
+
+For detailed product knowledge on specific simulators, refer to the following
+individual RAG documents in this knowledge base:
+
+Document ID        | Product
+-------------------|----------------------------------------------------------
+gmdss-sim-001      | ARI GMDSS & Communications Simulator
+radar-arpa-sim-001 | ARI RADAR / ARPA Simulator
+vts-sim-001        | ARI VTS (Vessel Traffic Service) Simulator
+tug-sim-001        | ARI Tug Handling Simulator
+
+Additional individual simulator documents to be added as available.
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT — ari-maritime-suite-001
+--------------------------------------------------------------------------------

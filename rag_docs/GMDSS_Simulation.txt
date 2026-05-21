@@ -1,0 +1,303 @@
+================================================================================
+DOCUMENT ID: gmdss-sim-001
+SOURCE: ARI GMDSS & Communications Simulator — Product Knowledge Base
+VERSION: 1.0
+CATEGORY: Maritime Training Equipment / Communication Simulators
+TAGS: GMDSS, STCW, DNV, AMERC, maritime safety, communications, simulator, training
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: PRODUCT IDENTITY
+--------------------------------------------------------------------------------
+
+Product Name: ARI GMDSS & Communications Simulator
+Full Name: ARI Global Maritime Distress and Safety System Communications Simulator
+Product Type: Maritime Training Simulator — Communications
+Primary Use: Operational training for sea-going vessel communication systems
+Manufacturer: ARI (Applied Research International — maritime simulation systems)
+
+The ARI Communications Simulator is a dedicated training platform designed to
+replicate the full operational environment of a modern shipboard communication
+station. It is used to train maritime personnel at all levels in both routine
+and emergency maritime communications.
+
+--------------------------------------------------------------------------------
+SECTION 2: PRODUCT OVERVIEW
+--------------------------------------------------------------------------------
+
+The ARI Communications Simulator provides complete operational communication
+training using shipboard equipment. It is built to recreate the conditions and
+equipment found aboard modern vessels, giving trainees an authentic, hands-on
+experience without requiring access to a real ship.
+
+The simulator complies with STCW simulator performance standards and meets DNV
+Class A requirements. AMERC-approved configurations are available for institutions
+requiring official certification pathways. It recreates modern communication
+station operations for training personnel at all levels in distress and routine
+maritime communications.
+
+The ARI GMDSS Simulator is a critical component of maritime safety training,
+focusing on the Global Maritime Distress and Safety System (GMDSS). It is designed
+to provide a comprehensive operating environment that replicates a modern ship's
+communication station, ensuring that navigators at all levels are proficient in
+handling both routine and emergency communications.
+
+The simulator is rigorously certified, meeting STCW 2010 requirements and DNV
+Class A standards. This ensures that training completed on the system is globally
+recognised and provides a certified pathway for maritime personnel to master the
+equipment and protocols necessary for maintaining a vital communication link
+between the vessel and shore-based rescue coordination centres.
+
+--------------------------------------------------------------------------------
+SECTION 3: WHAT IS GMDSS?
+--------------------------------------------------------------------------------
+
+GMDSS stands for the Global Maritime Distress and Safety System. It is an
+internationally agreed-upon set of safety procedures, types of equipment, and
+communication protocols used to increase safety and make it easier to rescue
+distressed ships, boats, and aircraft.
+
+GMDSS is mandated by the International Maritime Organization (IMO) and is
+required aboard all vessels over 300 gross tonnage on international voyages and
+all passenger ships. It replaces the older Morse code-based distress system.
+
+Key elements of GMDSS that the simulator covers include:
+- Digital Selective Calling (DSC) on VHF, MF, and HF frequencies
+- NAVTEX (Navigational Telex) for receiving maritime safety information
+- Emergency Position Indicating Radio Beacons (EPIRB)
+- Search and Rescue Transponders (SART)
+- Inmarsat satellite communications
+- VHF radiotelephone communications
+- MF/HF radiotelephone and radioteletype communications
+
+--------------------------------------------------------------------------------
+SECTION 4: CERTIFICATIONS AND COMPLIANCE
+--------------------------------------------------------------------------------
+
+4.1 STCW 2010 COMPLIANCE
+
+The ARI GMDSS Simulator is fully compliant with the Standards of Training,
+Certification and Watchkeeping for Seafarers (STCW) 2010 amendments.
+
+Specific sections met:
+- Section A-I/12: Mandatory minimum requirements for the use of simulators
+- Section B-I/12: Guidance regarding the use of simulators
+
+STCW compliance means the simulator meets internationally defined standards for
+how simulation-based training must be conducted, assessed, and certified. Training
+completed on an STCW-compliant simulator is recognised by maritime authorities
+and flag states worldwide.
+
+The Manila Amendments (STCW 2010) introduced updated requirements for simulator
+performance standards. The ARI simulator was designed and certified to meet these
+updated requirements in full.
+
+4.2 DNV CLASS A STANDARD
+
+The ARI GMDSS Simulator is certified to DNV Class A standard.
+
+DNV (Det Norske Veritas) is a globally recognised classification society and
+certification body. DNV Class A is the highest classification awarded for
+maritime training simulators. It denotes that the simulator:
+- Accurately replicates the equipment, environment, and operational conditions
+  of the real system it represents
+- Meets the most rigorous performance benchmarks for training fidelity
+- Is suitable for certification-level training and competency assessment
+- Has been independently audited and verified by DNV assessors
+
+Class A certification distinguishes the simulator from lower-tier Class B and
+Class C simulators, which are suitable only for familiarisation or limited
+task training. Class A is required when simulation is used as the basis for
+formal certification of seafarer competence.
+
+4.3 AMERC APPROVAL
+
+Specific configurations of the ARI GMDSS Simulator are approved by AMERC
+(the Association of Marine Electronics and Radio Colleges).
+
+AMERC is a UK-based organisation that approves training establishments and
+equipment for the delivery of GMDSS radio operator courses and examinations.
+AMERC approval is required for training providers who wish to offer GMDSS
+Short Range Certificate (SRC), Long Range Certificate (LRC), and other
+radio operator qualifications.
+
+AMERC-approved configurations of the simulator can be used by training
+institutions to deliver accredited GMDSS operator training and formal
+certification examinations.
+
+--------------------------------------------------------------------------------
+SECTION 5: KEY FEATURES
+--------------------------------------------------------------------------------
+
+5.1 STCW 2010 COMPLIANCE
+Meets all performance standards defined in STCW Sections A-I/12 and B-I/12,
+ensuring that training delivered on the simulator satisfies international
+mandatory minimum requirements for simulator-based maritime training.
+
+5.2 DNV CLASS A STANDARD
+Certified to the highest industry standard for simulation quality. DNV Class A
+certification confirms the simulator accurately represents real shipboard
+communication systems and is suitable for formal competency assessment and
+certification-level training programmes.
+
+5.3 AMERC APPROVAL
+Specific configurations are approved by AMERC for official GMDSS radio operator
+certification. This makes the simulator suitable for use in accredited training
+establishments delivering GMDSS qualifications including SRC and LRC certificates.
+
+5.4 FULL-SPECTRUM COMMUNICATIONS
+The simulator covers both satellite and terrestrial communication systems,
+providing trainees with exposure to the complete range of communication
+technologies used aboard modern vessels. This includes:
+- Satellite communications (Inmarsat systems)
+- VHF radio (Very High Frequency)
+- MF radio (Medium Frequency)
+- HF radio (High Frequency)
+- Digital Selective Calling (DSC)
+- NAVTEX receivers
+- EPIRB and SART equipment
+
+5.5 DISTRESS HANDLING
+Specialised training modules focus on managing emergency signals and
+coordinating with rescue services. Trainees learn to:
+- Initiate and respond to DSC distress alerts
+- Communicate with Maritime Rescue Coordination Centres (MRCCs)
+- Operate EPIRBs and SARTs correctly
+- Follow GMDSS distress communication protocols
+- Handle distress, urgency, and safety calls on appropriate frequencies
+
+5.6 SYMMETRIC ENVIRONMENT
+The simulator replicates the actual GMDSS communication station found on
+modern commercial ships. This symmetric design means trainees interact with
+realistic representations of the equipment they will use at sea, reducing
+the gap between simulator training and real-world operations. The environment
+includes faithful recreations of control panels, displays, and communication
+interfaces as found aboard operational vessels.
+
+--------------------------------------------------------------------------------
+SECTION 6: TRAINING CAPABILITIES
+--------------------------------------------------------------------------------
+
+6.1 TARGET AUDIENCE
+The ARI GMDSS Simulator is designed to train maritime personnel at all levels,
+including:
+- Officer cadets and navigation students in initial training
+- Junior officers working towards GMDSS certificates
+- Senior officers refreshing or updating their qualifications
+- Radio operators and communication officers
+- Maritime instructors and assessors
+
+6.2 ROUTINE COMMUNICATIONS TRAINING
+Trainees develop proficiency in day-to-day maritime communication tasks:
+- Port authority and vessel traffic service (VTS) communications
+- Ship-to-ship communications
+- Routine position reporting
+- Weather information reception via NAVTEX
+- Satellite communication for voice and data
+
+6.3 EMERGENCY AND DISTRESS COMMUNICATIONS TRAINING
+Trainees are trained to respond correctly under pressure in emergency scenarios:
+- Sending and acknowledging DSC distress alerts on VHF Channel 70, MF 2187.5 kHz,
+  and HF frequencies
+- Voice distress calls on VHF Channel 16
+- Coordinating with Search and Rescue (SAR) services
+- Activating and registering EPIRBs
+- Operating SARTs to assist rescuers in locating a vessel
+- Inter-ship coordination during distress events
+
+6.4 SCENARIO-BASED TRAINING
+The simulator supports a range of configurable scenarios allowing instructors to:
+- Simulate realistic distress situations (fire, flooding, collision, man overboard)
+- Introduce multiple simultaneous communications tasks
+- Vary the complexity and urgency of scenarios to match trainee level
+- Assess trainee performance against STCW competency benchmarks
+
+--------------------------------------------------------------------------------
+SECTION 7: TECHNICAL ENVIRONMENT
+--------------------------------------------------------------------------------
+
+The simulator replicates a complete modern GMDSS ship station, including:
+
+Communication Equipment Replicated:
+- VHF DSC Controller and radiotelephone
+- MF/HF DSC Controller and radiotelephone
+- Inmarsat-C terminal (for data and distress messaging)
+- Inmarsat Fleet (voice satellite communications)
+- NAVTEX receiver
+- EPIRB (manual and float-free activation simulation)
+- Two-way VHF portable radiotelephones
+- SART (Search and Rescue Transponder) operation
+
+The environment is designed to be symmetric — meaning the layout, controls,
+and interfaces match those found on real vessels, so the transition from
+simulator to shipboard operation is as seamless as possible.
+
+--------------------------------------------------------------------------------
+SECTION 8: COMPLIANCE SUMMARY
+--------------------------------------------------------------------------------
+
+Certification / Standard     | Status              | Detail
+-----------------------------|---------------------|-----------------------------
+STCW 2010 (A-I/12, B-I/12)  | Fully Compliant     | Mandatory simulator standards
+DNV Class A                  | Certified           | Highest simulation quality grade
+AMERC Approval               | Approved (specific  | For GMDSS radio operator
+                             | configurations)     | certification courses
+
+--------------------------------------------------------------------------------
+SECTION 9: USE CASES AND APPLICATIONS
+--------------------------------------------------------------------------------
+
+- Maritime academies and nautical colleges delivering GMDSS certificate courses
+- Offshore and shipping company training centres for crew competency maintenance
+- Flag state and port state approved training programmes
+- GMDSS Short Range Certificate (SRC) training and examination
+- GMDSS Long Range Certificate (LRC) training and examination
+- STCW revalidation and refresher training
+- Instructor-led assessment and competency evaluation
+- Individual self-study and familiarisation with GMDSS equipment
+
+--------------------------------------------------------------------------------
+SECTION 10: FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: What certification standard does the ARI GMDSS Simulator meet?
+A: The ARI GMDSS Simulator meets STCW 2010 performance standards (Sections
+A-I/12 and B-I/12) and is certified to DNV Class A, the highest grade for
+maritime training simulators. Specific configurations also hold AMERC approval.
+
+Q: Is this simulator suitable for formal GMDSS certification courses?
+A: Yes. The DNV Class A certification and AMERC approval make it suitable for
+delivering formal GMDSS operator certification courses, including SRC and LRC
+qualifications at accredited training establishments.
+
+Q: What communication systems does the simulator cover?
+A: The simulator covers full-spectrum communications including VHF, MF, HF,
+satellite communications (Inmarsat), DSC, NAVTEX, EPIRB, and SART — all systems
+found in a complete modern ship GMDSS station.
+
+Q: What level of trainee is the simulator designed for?
+A: The simulator is designed for personnel at all levels, from officer cadets
+in initial training through to experienced officers undertaking refresher or
+revalidation training.
+
+Q: What is the difference between DNV Class A and lower-class simulators?
+A: DNV Class A is the highest classification for maritime simulators and is
+required when simulation is used for formal certification of competence. Class B
+and C simulators are suitable for familiarisation or limited-task training only
+and cannot be used as the sole basis for certification assessment.
+
+Q: What does AMERC approval mean for training providers?
+A: AMERC approval means the specific simulator configuration has been assessed
+and authorised by the Association of Marine Electronics and Radio Colleges for
+use in delivering accredited GMDSS radio operator courses and examinations in
+the UK and internationally recognised programmes.
+
+Q: Does the simulator replicate real shipboard equipment?
+A: Yes. The symmetric environment design means the simulator faithfully
+replicates the layout, controls, and interfaces of a real shipboard GMDSS
+communication station, minimising the gap between simulator training and
+actual sea-going operations.
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT — gmdss-sim-001
+--------------------------------------------------------------------------------

@@ -381,7 +381,7 @@ class ChatService:
         ])
         
         if is_relevant_resp.strip().lower().startswith("no"):
-            generic_reply = "I am sorry, but I can only assist with questions related to my provided documents and intended purpose."
+            generic_reply = "I am sorry, but I can only assist with questions related to ARI Simulation and its products. If you have any questions about ARI Simulation, feel free to ask!"
             yield ("token", generic_reply)
             history.append({"role": "user", "content": user_message})
             history.append({"role": "assistant", "content": generic_reply})

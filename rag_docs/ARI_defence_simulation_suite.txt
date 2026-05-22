@@ -1,0 +1,932 @@
+================================================================================
+DOCUMENT ID: ari-defence-suite-001
+SOURCE: ARI Simulation — Defence Simulation Suite Product Knowledge Base
+VERSION: 1.0
+CATEGORY: Defence Training Equipment / Simulation Suite Overview
+TAGS: ARI Simulation, Zen Technologies, defence simulation, naval simulation,
+      bridge simulator, fast attack craft, submarine, DSRV, CIC, ASTT,
+      helicopter control, coastal security, cyber warfare, machinery simulator,
+      mixed reality, joint military operations, HLA, interoperability,
+      DNV, ISO 9001, ISO 14001, naval warfare training
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: COMPANY IDENTITY
+--------------------------------------------------------------------------------
+
+Company Name: Applied Research International (ARI) Simulation
+Full Name: Applied Research International Pvt. Ltd.
+Parent Company: Zen Technologies Limited
+Tagline: WE'VE GOT YOU COVERED — LAND · SEA · AIR
+Website: www.arisimulation.com
+
+ARI Simulation is the naval and marine simulation arm of Zen Technologies Limited.
+It is a global leader in the production of sophisticated simulation and virtual
+reality training solutions for the defence, marine, and offshore industries.
+
+ARI offices and representatives are located worldwide. Key office locations:
+
+USA:
+Bishop Ranch 3, 2603 Camino Ramon, Suite 200
+San Ramon, California, 94583, USA
+Tel: +1 408 338 6093
+Email: ariusa@arisimulation.com
+
+Singapore:
+14 Robinson Road, #08-01A, Far East Finance Building
+Singapore 048545
+Email: arisingapore@arisimulation.com
+
+India (Head Office):
+E-44/14, Okhla Industrial Area, Okhla Phase II
+New Delhi - 110020, India
+Tel: +91-11-41326882
+Email: info@arisimulation.com
+
+General Sales Enquiries: info@arisimulation.com
+
+--------------------------------------------------------------------------------
+SECTION 2: COMPANY OVERVIEW
+--------------------------------------------------------------------------------
+
+Applied Research International (ARI) Simulation, a subsidiary of Zen Technologies
+Limited, is a global leader in simulation and virtual reality training solutions
+for the defence, marine, and offshore industries.
+
+ARI's simulators are meticulously crafted to adhere to the highest international
+standards set by respected industry authorities including:
+
+- IMO (International Maritime Organization)
+- STCW 2010 (Standards of Training, Certification and Watchkeeping for Seafarers)
+- The Nautical Institute (NI)
+- OPITO (Offshore Petroleum Industry Training Organisation)
+- AMERC (Association of Marine Electronics and Radio Colleges)
+- IMCA (International Marine Contractors Association)
+- DNV (Det Norske Veritas)
+
+ARI's marine, offshore, and crane simulation solutions have achieved DNV Class A
+Standard certification — the highest level of simulator certification awarded by
+Det Norske Veritas.
+
+Built on proven and certified simulation technology, ARI's defence products are
+built to military standards and incorporate a considerable set of unique
+defence-related features. Technologies are used by multiple armed forces around
+the world.
+
+ARI has been audited and certified to the exacting ISO 14001 and ISO 9001
+standards, which include assessment of confidential data protection systems.
+ARI holds 55 plus copyrights in India, globally recognised.
+
+The Defence Suite covers:
+- Different types of defence simulators for a range of weapon systems,
+  air assets, and naval platforms
+- Simulators deployed in roles spanning operations, tactical and strategic
+  evaluation, electronic warfare, and troop movement planning
+- Participants can visualise tactical inputs, analyse multiple courses of action,
+  and evaluate a range of decision response scenarios in combat or mobilisation
+  environments
+
+Global footprint: 60+ countries, 1,500+ installations.
+
+--------------------------------------------------------------------------------
+SECTION 3: WHAT IS THE DEFENCE SIMULATION SUITE?
+--------------------------------------------------------------------------------
+
+The ARI Defence Simulation Suite (also referred to as the Naval Simulation Suite)
+is a collection of sophisticated training platforms each providing a complete
+learning experience for specific naval warfare operations. It is considered one
+of the most powerful naval simulation platforms available.
+
+The suite is designed for armed forces and smaller response units for use in
+training, tactical proving, mission rehearsal, and other defence-related
+applications.
+
+The simulators are designed and built to deliver a high degree of integration
+and interoperability, enabling the practice of missions involving multiple force
+elements performing in their own individual roles towards a common objective.
+
+Each simulator can be operated in an individual mode, and multiple simulators
+can be combined into different configurations to create:
+- Team training opportunities
+- Whole-ship training platforms
+- Multiple collective whole-ship training platforms
+
+The suite includes the following primary simulator categories:
+
+WARSHIP BRIDGE AND NAVIGATION:
+1. Bridge Operations Simulator (Primary Warship Bridge)
+2. Secondary Warship Bridge Simulator
+3. ECDIS and RADAR/ARPA Room
+
+SURFACE WARFARE:
+4. Fast Attack Craft (FAC) Simulator
+5. Action Speed Tactical Trainer (ASTT)
+
+COMBAT AND COMMAND:
+6. Combat Information Centre (CIC) Simulator
+
+SUBSURFACE WARFARE:
+7. Submarine Operations and Navigation Simulator
+8. Deep Submergence Rescue Vehicle (DSRV) Simulator
+
+ENGINEERING AND PROPULSION:
+9. Warship Machinery Operations Simulator
+
+AVIATION:
+10. Helicopter Control Simulator
+
+DOMAIN AWARENESS AND SECURITY:
+11. Domain Awareness and Coastal Security Solution
+
+COMMUNICATIONS:
+12. GMDSS / Communications Simulator
+
+CYBER:
+13. Cyber Warfare Simulator
+
+EMERGING TECHNOLOGY:
+14. Mixed Reality (MR) Solutions
+15. ROV Simulation / Tele-Robotic and Autonomous Systems
+
+CLOUD AND DIGITAL:
+16. Cloud Simulation
+
+--------------------------------------------------------------------------------
+SECTION 4: WARSHIP BRIDGE AND NAVIGATION SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+4.1 BRIDGE OPERATIONS SIMULATOR
+
+The ARI vessel bridge simulator completely recreates the environment of a naval
+vessel bridge down to the last detail. Combined with state-of-the-art
+visualisation systems and capable of being mounted on a motion platform, these
+simulators offer a completely realistic training environment for ship, convoy,
+and fleet operations management.
+
+Key characteristics:
+- Full recreation of naval vessel bridge environment
+- State-of-the-art visualisation systems
+- Motion platform capability
+- Suitable for ship, convoy, and fleet operations management training
+
+Navigation and vessel management systems that can be populated include:
+- Civilian band Radars
+- GPS and navigation tools
+- Military band Radars and position referencing systems
+- Specific EWS (Electronic Warfare Support) scanning and jamming systems
+- Weapon control systems
+- Encrypted communications systems
+- Subsea threat location tools
+
+Customisation:
+- Completely customised solutions available based on specific vessels including
+  their specific performance and handling footprint
+- Multifunctional: many different vessel types can be loaded into a single bridge
+  simulator, allowing for training missions across all ship types
+
+Integration capability:
+- Can be connected to propulsion and machinery control simulators
+- Can be connected to Command and Control (C&C) simulators
+- Can be connected to weapon control and intelligence systems simulators
+- Can be connected to other bridge simulators for:
+  * Whole-ship training
+  * Convoy management
+  * Fleet management training
+
+Training scenarios supported:
+- Convoy and escort operations
+- Tactical maneuvering
+- Piracy response
+
+4.2 ECDIS SIMULATOR (DEFENCE)
+
+The ARI Electronic Chart Display and Information System (ECDIS) Simulator is
+a comprehensive training solution for electronic navigation.
+
+Key characteristics:
+- Complies with the relevant requirements of latest STCW amendments
+  (2010 Manila Amendments), under sections A-I/12, A-II/1, and A-II/2
+- Fulfils requirements of IMO Model Course 1.27 related to the use of simulation
+- Can be operated in standalone training mode or in conjunction with other
+  navigation aids and equipment
+- Provides training in ECDIS-based navigation including use of electronic charts,
+  route planning, and route monitoring
+- Can be used for competence demonstration in supervised or unsupervised modes
+- Multiple OEM ECDIS, fully integrated with Navigation Simulators, available
+
+4.3 RADAR / ARPA SIMULATOR (DEFENCE)
+
+The ARI RADAR/ARPA Simulator provides IMO-compliant training in radar navigation
+and automatic radar plotting aid operation.
+
+Key characteristics:
+- Built to comply with IMO performance standards for Radar equipment on
+  seagoing vessels
+- Designed to meet requirements of IMO Model Courses 1.07 and 1.08
+- Suitable for competence training and assessment in radar operation in
+  accordance with STCW 2010 simulator-based training requirements
+- Available with real OEM equipment or emulated Radars
+
+4.4 GMDSS AND COMMUNICATIONS SIMULATOR (DEFENCE)
+
+The ARI Communications Simulator provides complete operational training in
+communication using equipment as found on sea-going vessels.
+
+Key characteristics:
+- Complies with Performance Standards for Simulators as defined by STCW
+- Approved by DNV to the highest Class A Standard
+- Specific configurations are AMERC approved
+- Provides an operating environment for the trainee similar to operating a
+  communications station on a modern ship
+- Suitable for training personnel at all levels for handling distress and
+  routine communication at sea using satellite and terrestrial communication
+  equipment
+
+--------------------------------------------------------------------------------
+SECTION 5: SURFACE WARFARE SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+5.1 FAST ATTACK CRAFT (FAC) SIMULATOR
+
+The FAC Simulator is a high-fidelity, fully integrated training solution designed
+to replicate the operational environment of modern Fast Attack Crafts. Engineered
+for realism, safety, and repeatability, the simulator provides naval operators
+and combat crews with immersive training in ship handling, combat tactics,
+navigation, and remote weapon engagement.
+
+Key characteristics:
+- High-Fidelity Visualization: Immersive 360-degree horizontal field of view
+  (HFOV) environment with dynamic maritime scenario rendering for enhanced
+  awareness and tactical training
+- Integrated Human-Machine Interface (HMI): Realistic vessel control interface
+  with propulsion and steering systems for authentic operator interaction
+- Weapon System Simulation: Optional integration with remotely operated
+  stabilised weapon station for precise targeting
+- Medium Machine Gun (MMG) simulation with recoil kit for realistic weapon
+  training, covering target engagement, fire control, and tactical scenarios
+- 6-DOF Motion Platform: Synchronised six-axis motion system aligned with
+  navigation and weapons modules for a fully immersive training experience
+
+5.2 ACTION SPEED TACTICAL TRAINER (ASTT)
+
+The ASTT delivers immersive, high-fidelity naval training for ships, submarines,
+and aircraft command teams. It enables forces to practice, refine, and test
+tactics across domains including Anti-Submarine, Anti-Air, Mine, Amphibious,
+and Electronic Warfare — enhancing readiness, coordination, and combat
+effectiveness in a true-to-mission environment.
+
+Supported warfare domains:
+- Anti-Submarine Warfare (ASW)
+- Anti-Air Warfare (AAW)
+- Surface Warfare
+- Mine Warfare
+- Amphibious Warfare
+- Electronic Warfare (EW)
+
+Additional capabilities:
+- Data and voice communications
+- Air operations (ship, carrier, and land-based)
+- Sonobuoy monitoring
+- Automatic Identification System (AIS) / Air Data System (ADS) /
+  Identification Friend or Foe (IFF) tracking
+- Replenishment and logistics
+- Real-time combat situation simulation including situation assessment,
+  information analysis, command decision-making, and reporting
+
+Realistic Maritime Environment features include:
+- Authentic 3D maritime environment with accurate coastlines, depth contours,
+  and seabed profiles
+- Depth below keel indication, chart-based navigation, and grounding detection
+- Realistic platform dynamics with sensor modelling based on physics, radar,
+  sonar, and environmental equations
+- Advanced systems including:
+  * Radar
+  * Sonar (Active / Passive)
+  * Electronic Support Measures (ESM)
+  * Communication Intercept
+  * Sonobuoy
+  * Variable Depth Sonar (VDS)
+  * Magnetic Anomaly Detector (MAD)
+  * Visual Sensors
+- Weapon and countermeasure modelling including:
+  * Torpedoes
+  * Missiles
+  * Guns
+  * Bombs
+  * Electronic Counter Measures (ECM)
+  * Decoys (chaff and jamming)
+- Environmental and hydrological effects simulation
+- Damage assessment and battle damage survivability
+- Data and voice communication, logistics and replenishment operations
+- Automated platform-level actions (mine / sonobuoy deployment, route search
+  patterns)
+- Dedicated sensor displays and real-time decision-making tools
+- Comprehensive briefing and debriefing facilities
+
+--------------------------------------------------------------------------------
+SECTION 6: COMBAT AND COMMAND SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+6.1 COMBAT INFORMATION CENTRE (CIC) SIMULATOR
+
+The CIC Simulator is purpose-built for warfare training centres and active-duty
+surface combat units. It provides a high-fidelity, immersive environment
+designed to replicate the complexity of modern naval combat. It enables
+personnel to train in real-world tactics, threat responses, and combat system
+operations with unmatched realism and precision.
+
+Key integrated systems:
+
+Surface Radar Modules:
+- Advanced radar simulation for multi-target tracking
+- Air and surface surveillance
+- Engagement prioritisation
+
+Sonar Module:
+- Acoustic detection and classification of underwater threats in dynamic
+  maritime conditions
+
+Electronic Warfare Suite:
+- Real-time signal interception
+- Electronic Support Measures (ESM)
+- Jamming and countermeasures simulation
+
+Fire Control System (FCS):
+- Comprehensive simulation of shipborne weapon coordination and engagement
+  processes
+- Enables operators to manage threat evaluation, target designation, weapon
+  selection, and dynamic engagement scenarios
+- Training scenarios include:
+  * Engaging fast-moving surface threats with precision
+  * Defending against incoming missiles and aircraft with rapid-reaction targeting
+  * Simulating long-range precision strikes against surface, subsurface, and
+    airborne threats
+  * Training for underwater threat neutralisation using realistic launch and
+    guidance models
+
+--------------------------------------------------------------------------------
+SECTION 7: SUBSURFACE WARFARE SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+7.1 SUBMARINE OPERATIONS AND NAVIGATION SIMULATOR
+
+The Submarine Operations and Navigation Simulator from ARI is a cutting-edge,
+high-fidelity training platform built specifically for the operational and
+instructional needs of modern submarines.
+
+Developed with inputs from experienced naval personnel, the simulator replicates
+the complex dynamics of submarine missions — from navigation and propulsion to
+sonar tracking and emergency procedures — within a safe and immersive virtual
+environment.
+
+Purpose-built for training command teams on board submarines, this simulator
+delivers a true-to-life submarine environment, empowering naval personnel to
+train, rehearse, and perfect mission-critical operations with unmatched realism.
+
+Key modules and capabilities:
+- Navigation Systems
+- Control Interfaces
+- Operations Modules
+- Platform Management System (PMS)
+- Position Plotting System
+- Periscope Simulation
+- Scenario-Based Training
+- Environmental Simulation
+- Crew Coordination
+- Performance Feedback
+
+7.2 DEEP SUBMERGENCE RESCUE VEHICLE (DSRV) SIMULATOR
+
+The DSRV Simulator is a state-of-the-art training solution designed to enhance
+the skills required for critical underwater rescue operations. Built with
+high-fidelity hydrodynamic modelling and immersive visualisation, the simulator
+accurately replicates real-world submersible dynamics, mission scenarios, and
+environmental conditions.
+
+Key characteristics:
+- High-fidelity hydrodynamic modelling
+- Immersive visualisation of deep-sea rescue environments
+- Replication of real-world submersible dynamics and mission scenarios
+- Enables operators to train in deploying, manoeuvring, and recovering the DSRV
+  in challenging deep-sea rescue situations
+- Advanced control interfaces
+- Realistic mission planning capability
+- Emergency response training
+
+Simulator stations included:
+- SRV and LARS (Launch and Recovery System) Station
+- ROV Station
+
+Ensures that naval and maritime personnel are prepared for high-risk underwater
+rescue missions with precision and confidence.
+
+--------------------------------------------------------------------------------
+SECTION 8: ENGINEERING AND PROPULSION SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+8.1 WARSHIP MACHINERY OPERATIONS SIMULATOR
+
+The ARI full mission machinery operations simulator recreates the operating
+environment of a naval vessel machinery operations centre down to the last
+detail. Combined with state-of-the-art visualisation systems, these simulators
+offer highly realistic training environments for engineering operations
+management.
+
+Key characteristics:
+- Includes high-speed engines, turbine systems, and waterjet propulsors
+- Automation for machinery control systems
+- Power plant with power management systems
+- Weapon control systems
+- Complete set of domestic and utility equipment for vessel operation
+- Facility for creating abnormal conditions through introduction of faults and
+  malfunctions — built-in for training and assessment of senior machinery system
+  operators
+- Large set of instructor control tools for creation, control, and monitoring
+  of complex simulation scenarios
+- Reconfigurability options fully supported
+
+--------------------------------------------------------------------------------
+SECTION 9: AVIATION SIMULATORS — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+9.1 HELICOPTER CONTROL SIMULATION
+
+The Helicopter Control Simulation module is a high-fidelity naval aviation
+training system designed to support ship-helicopter coordination and operations
+in complex maritime environments. The simulator enables helicopter controllers,
+pilots, and aircrew to plan, coordinate, and execute ship-borne helicopter
+missions under realistic sea, weather, and operational conditions.
+
+The system allows crews to rehearse time-critical and multi-asset naval missions,
+including deck operations, airborne coordination, and mission execution. By
+replicating real operational workflows and safety constraints, the simulator
+enhances mission readiness, operational safety, and crew coordination without
+the risks and costs of live flying.
+
+Key capabilities:
+- Training for helicopter controllers and aircrew coordination
+- Simulation of integrated ship-helicopter operations and deck procedures
+- Support for Ship Controlled Approach (SCA), Search and Rescue (SAR),
+  and maritime search planning
+- Anti-Submarine Warfare (ASW), weapons delivery, and reconnaissance mission
+  scenarios
+- High-fidelity mission environments for safe, repeatable, and effective training
+
+--------------------------------------------------------------------------------
+SECTION 10: DOMAIN AWARENESS AND SECURITY — DETAILED OVERVIEW
+--------------------------------------------------------------------------------
+
+10.1 DOMAIN AWARENESS AND COASTAL SECURITY SOLUTION
+
+A unified, real-time naval surveillance and command solution delivering
+comprehensive awareness across maritime, air, subsurface, cyber, and space
+domains. The system fuses data from coastal sensors, naval platforms, tracking
+systems, and intelligence sources to generate a single, integrated operational
+picture.
+
+Designed to support naval operations, it enables early threat detection, faster
+decision-making, and effective mission execution across coastal and extended
+maritime areas. The system enhances operational readiness, supports 24x7
+monitoring, and strengthens maritime security and sea control.
+
+Key capabilities:
+- Real-time multi-domain situational awareness
+- Multi-sensor and intelligence data fusion
+- Early threat detection and identification
+- Anomaly and behaviour analysis
+- Integrated Naval Command and Control (C2)
+- Predictive analytics and real-time alerts
+- Secure information sharing
+- Scalable, interoperable architecture
+- Mission planning, rehearsal, and response tools
+
+10.2 CYBER WARFARE SIMULATOR
+
+The ARI Cyber Warfare Simulator is an advanced mission-oriented training and
+analysis platform designed to model cyber threats, vulnerabilities, and defensive
+operations across naval networks, platforms, and combat systems.
+
+It enables realistic simulation of cyber-attacks on shipborne systems,
+shore-based infrastructure, command and control networks, and maritime
+communication links, supporting both operational readiness and strategic planning.
+
+By integrating scenario-based training, threat emulation, and decision support,
+the simulator enhances cyber situational awareness, strengthens resilience of
+naval assets, and prepares personnel to operate effectively in contested cyber
+maritime environments across peacetime and conflict operations.
+
+Cyber attack domains and scenarios modelled:
+
+RADAR:
+- ARPA (Automatic Radar Plotting Aid)
+- Distance and Bearings
+- AIS Transponder Fail
+- Video Signal Jamming
+- Ghost Target
+
+NAVIGATION DISRUPTION:
+- ECDIS
+- INS (Inertial Navigation System)
+- Navigation Spoofing and Jamming
+- AIS Spoofing
+- Propulsion System
+- Steering System
+
+ELECTRONIC WARFARE:
+- Defence Failure
+- Data Collections
+
+COMMUNICATION DISRUPTION:
+- Denial of Service and Jamming
+- Intercept and Relay
+- Spoof Communication
+
+SONAR:
+- Spoofing Sonar
+- Ghost Seabed Features
+- Software Hack
+- Sonar into Weapon
+
+VESSEL CONTROL SYSTEM ATTACK:
+- Alarm System Damage
+- Ship Stability Damage
+- Ship Lock Out
+
+COMBAT AND WEAPON CONTROL SYSTEM:
+- Command Interference
+- Hack Weapon System
+- Data Theft and Signal Manipulation
+
+VESSEL PORT INFRASTRUCTURE:
+- Port Management System
+- PowerGrid Management
+- Port Control System Sabotage
+- Surveillance and Access
+- Ammunition and Fuel Delivery
+
+--------------------------------------------------------------------------------
+SECTION 11: EMERGING TECHNOLOGY AND DIGITAL SOLUTIONS
+--------------------------------------------------------------------------------
+
+11.1 ADVANCED MIXED REALITY (MR) SOLUTIONS FOR DEFENCE TRAINING
+
+ARI's cutting-edge Mixed Reality (MR) solutions revolutionise defence training
+by delivering ultra-realistic, mission-ready simulations. By seamlessly
+integrating physical and digital environments, ARI's MR platforms enhance
+combat readiness, tactical decision-making, and operational efficiency across
+various defence applications.
+
+Combat and Tactical Training:
+- Prepares military personnel with hyper-realistic battlefield scenarios
+- Enables soldiers to refine combat strategies, mission execution, and
+  situational awareness in a risk-free yet highly immersive environment
+- Replicates diverse terrains, urban warfare settings, and high-stakes combat
+  situations with unparalleled precision
+
+Naval Operations Simulation:
+- Trains naval officers and crews for real-world maritime defence challenges
+- Covers ship manoeuvring, combat drills, emergency response, and strategic
+  navigation
+- Enhances readiness for maritime security, anti-piracy, and defence operations
+
+11.2 TELE-ROBOTIC AND AUTONOMOUS SYSTEMS — ROV SIMULATION
+
+The ROV Simulator provides a powerful manoeuvring platform for ROV operators
+to train in highly complex and dynamically evolving threat scenarios whilst
+preparing them to perform mission-critical tasks efficiently.
+
+Key characteristics:
+- Uses state-of-the-art visualisation technologies to project highly
+  photo-realistic and geo-specific 3D databases
+- Provides a realistic environment of multiple terrains, objects, and features
+- Desktop application using a graphical user interface
+- Replica controllers for simulated driving of the ROV and for operation of
+  the ROV's arm, wrist, and claw
+- Head lights and tail lights can be operated with corresponding visual effects
+- Training on handling Improvised Explosive Devices (IEDs) of different shapes
+  and sizes using various claw arrangements:
+  * 2-finger gripper
+  * 3-finger gripper
+  * Flat attachment
+  * Hook attachment
+- Four camera angles: Front, Rear, Wrist, and Payload views
+- Camera features: zoom in / zoom out, camera light on / off, and snapshot
+  capability with date and time stamp
+- Terrain configurations: rural and urban terrains with day and night mode
+- Assessment scoring provided to trainee based on negotiations encountered;
+  can be saved for later review and debriefing
+
+11.3 CLOUD-BASED SIMULATION (DEFENCE)
+
+ARI introduced one of the first and largest cloud-based simulation systems
+for training and assessment. Using ARI cloud systems, more than 75,000
+certificates have been generated.
+
+Key features:
+- Access to industry-grade simulation environments without physical setup
+- Flexible learning modes: instructor-led sessions or self-directed practice
+- Anytime, anywhere learning
+- Secure and scalable: built with robust cloud architecture ensuring performance,
+  data privacy, and reliability
+- Automated Simulation Based Assessment (ASBA): advanced supervised and
+  unsupervised assessment modules
+
+--------------------------------------------------------------------------------
+SECTION 12: JOINT MILITARY OPERATIONS AND INTEROPERABILITY
+--------------------------------------------------------------------------------
+
+ARI uses advanced technological tools including Common Databases and High Level
+Architecture (HLA) systems to build interoperability into simulation systems.
+Multiple simulators and simulator types can be interfaced to permit platform,
+fleet, and force-level training scenarios to be executed.
+
+Recording and Debriefing:
+- Simulators have the ability to record complete training sessions including:
+  * Equipment operation sequences
+  * Visual images
+  * Sensor data
+  * CCTV views of the simulator rooms
+  * Voice communications
+- All recording devices are fully synchronised and time-stamped
+- All recordings can be replayed at any time, including immediately after a
+  live session for debrief or evaluation
+- Recordings can be replayed at variable speeds
+- Can be interrupted to resume a live session at any point from within the
+  recording
+
+Network and Interoperability:
+- Interoperability between simulator systems for diverse forces is possible
+  through the use of common database systems and common industry standard
+  communication and storage protocols
+- Distributed simulation infrastructure is fully compatible with operations
+  across secured defence-grade networks
+
+Exercise Management Systems:
+- Every ARI simulator is equipped with advanced exercise management systems
+  including tools for:
+  * Exercise creation and design
+  * Object modelling
+  * Environment modelling
+  * Weather models
+  * Assessment and evaluation
+  * Communications
+  * Recording and debriefing
+- Relevant simulation training can be integrated with respective service
+  training curricula to provide immersive, participatory, and repeatable
+  learning experiences
+
+--------------------------------------------------------------------------------
+SECTION 13: INTEGRATED SIMULATION COMPLEX (NAVAL)
+--------------------------------------------------------------------------------
+
+ARI Simulation's Multi-Simulator Simulation Complex is a cutting-edge training
+environment designed to seamlessly integrate multiple high-fidelity simulators
+into a unified ecosystem.
+
+This advanced system enables joint training across naval, air, land, and
+subsurface forces, connecting Bridge, Engine Room, Command and Control, and
+Platform Management Simulators for realistic, mission-oriented exercises.
+
+With real-time data exchange, dynamic threat modelling, and synchronised
+operations, the complex enhances decision-making, tactical coordination, and
+operational readiness. Built for scalability and interoperability, ARI's
+Multi-Simulator Simulation Complex delivers an immersive, mission-ready
+training solution tailored to the evolving needs of modern defence forces.
+
+An integrated naval simulation complex includes the following simulators
+operating together as a unified training environment:
+
+- Primary Warship Bridge Simulator
+- Secondary Warship Bridge Simulator
+- Fast Attack Craft (FAC) Simulator
+- GMDSS / Communications Simulator
+- Warship Machinery Simulators
+- Submarine Operations and Navigation Simulator
+- Deep Submergence Rescue Vehicle (DSRV) Simulator
+- ECDIS and RADAR/ARPA Room
+- Action Speed Tactical Trainer (ASTT)
+- Combat Information Centre (CIC) Simulator
+- Helicopter Control Simulator
+- Domain Awareness and Coastal Security Solution
+- Unified Simulation Control Centre
+
+--------------------------------------------------------------------------------
+SECTION 14: CERTIFICATIONS AND STANDARDS — DEFENCE SUITE SUMMARY
+--------------------------------------------------------------------------------
+
+Standard / Body                  | Relevance to ARI Defence Portfolio
+---------------------------------|---------------------------------------------
+DNV Class A                      | Entire marine and offshore simulator range
+                                 | certified to DNV Class A — the highest grade
+STCW 2010                        | Navigation and communications simulators
+                                 | meet STCW 2010 requirements
+IMO Performance Standards        | Bridge, RADAR/ARPA, ECDIS simulators comply
+                                 | with IMO equipment standards
+IMO Model Course 1.07            | RADAR/ARPA Simulator (operational level)
+IMO Model Course 1.08            | RADAR/ARPA Simulator (management level)
+IMO Model Course 1.27            | ECDIS Simulator
+AMERC                            | GMDSS Simulator (specific configurations)
+ISO 9001                         | Company quality management certification
+ISO 14001                        | Company environmental management certification
+ISO 27001                        | Information Security Management System (ISMS)
+ISO 45001                        | Occupational Health and Safety (OH&S)
+55+ Copyrights                   | Held in India, globally recognised
+Military Standards               | All defence products built to military
+                                 | standards with unique defence features
+
+--------------------------------------------------------------------------------
+SECTION 15: PRODUCT PORTFOLIO AT A GLANCE — DEFENCE SUITE
+--------------------------------------------------------------------------------
+
+WARSHIP BRIDGE AND NAVIGATION:
+- Bridge Operations Simulator (Primary / Secondary, IMO, STCW 2010, DNV)
+- ECDIS Simulator (STCW 2010, IMO Model Course 1.27)
+- RADAR / ARPA Simulator (IMO, STCW 2010, Model Courses 1.07 and 1.08)
+- GMDSS / Communications Simulator (STCW 2010, DNV Class A, AMERC)
+
+SURFACE WARFARE:
+- Fast Attack Craft (FAC) Simulator (360° HFOV, 6-DOF Motion, Weapon systems)
+- Action Speed Tactical Trainer (ASTT) (ASW, AAW, EW, Mine, Amphibious warfare)
+
+COMBAT AND COMMAND:
+- Combat Information Centre (CIC) Simulator (Radar, Sonar, EW, FCS)
+
+SUBSURFACE WARFARE:
+- Submarine Operations and Navigation Simulator (PMS, Periscope, Scenario-based)
+- Deep Submergence Rescue Vehicle (DSRV) Simulator (SRV, LARS, ROV stations)
+
+ENGINEERING AND PROPULSION:
+- Warship Machinery Operations Simulator (Engines, turbines, waterjets, PMS)
+
+AVIATION:
+- Helicopter Control Simulation (ASW, SAR, SCA, deck operations)
+
+DOMAIN AWARENESS AND SECURITY:
+- Domain Awareness and Coastal Security Solution (Multi-domain, 24x7)
+- Cyber Warfare Simulator (Naval networks, platforms, combat systems)
+
+EMERGING TECHNOLOGY:
+- Advanced Mixed Reality (MR) Solutions for Defence Training
+- ROV / Tele-Robotic and Autonomous Systems Simulator (IED handling, terrain)
+
+CLOUD AND DIGITAL:
+- Cloud-Based Simulation (secure, scalable, ASBA assessment)
+
+INTEGRATED COMPLEX:
+- ARI Naval Simulation Complex (Multi-simulator, HLA, unified control centre)
+
+MARINE SUITE (separate suite):
+- Full Mission Ship Handling / Navigation Simulator
+- Full Mission Engine Room Simulator
+- Liquid Cargo Handling Simulator
+- Tug Handling Simulator
+- VTS Simulator
+- Offshore / DP Simulator
+- Crane Simulators (30+ types, all DNV certified)
+
+--------------------------------------------------------------------------------
+SECTION 16: GLOBAL FOOTPRINT AND PRESTIGIOUS CLIENTS
+--------------------------------------------------------------------------------
+
+Global Reach:
+- 60+ countries with installations
+- 1,500+ installations worldwide
+
+Office Locations:
+- India: Delhi and Mumbai
+- USA: California (San Ramon)
+- Singapore
+
+Defence Establishments and Government Bodies served include:
+- Multiple armed forces and naval establishments worldwide
+- Government defence organisations and training commands
+
+OEM Partners include:
+- Furuno, CAE, Navis Engineering, GE, Marine Technologies LLC, NOV, JCB
+- BEML, Maris Maritime Information Systems, Japan Marine Science Inc.
+- Tata Hitachi, Raytheon
+
+Marine Industry Clients include:
+- DP World, Maersk, TK, Synergy Group, Shell, SMTC Global, Oldendorff
+- MOL (Mitsui O.S.K. Lines), BP, APM Terminals, V.Ships, Essar
+- Cairn, Reliance Industries, Compass, Adani
+- Anglo-Eastern, Westports, Embraport, Seaspan, Wallem
+- CAE, Incatep, and many others
+
+Note: All client product and company names and logos are trademarks or
+registered trademarks of their respective holders. Their use does not imply
+any affiliation with or endorsement by them.
+
+--------------------------------------------------------------------------------
+SECTION 17: FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: What is the ARI Defence Simulation Suite?
+A: The ARI Defence Simulation Suite (also referred to as the Naval Simulation
+Suite) is a collection of sophisticated training platforms, each providing a
+complete learning experience for specific naval warfare operations. It is
+considered one of the most powerful naval simulation platforms available.
+Products are built to military standards and used by multiple armed forces
+worldwide.
+
+Q: What types of defence simulators does ARI offer?
+A: ARI offers simulators for warship bridge operations, fast attack craft,
+action speed tactical training, combat information centres, submarine operations,
+deep submergence rescue vehicles, warship machinery, helicopter control, domain
+awareness and coastal security, cyber warfare, and mixed reality training. These
+can operate individually or be integrated into a unified simulation complex.
+
+Q: Can ARI defence simulators be networked together?
+A: Yes. ARI uses Common Databases and High Level Architecture (HLA) systems
+to achieve interoperability between simulators. Multiple simulators and types
+can be interfaced to permit platform, fleet, and force-level training scenarios.
+The distributed simulation infrastructure is fully compatible with secured
+defence-grade networks.
+
+Q: What is the ARI Integrated Naval Simulation Complex?
+A: It is a cutting-edge training environment that seamlessly integrates multiple
+high-fidelity simulators into a unified ecosystem, enabling joint training
+across naval, air, land, and subsurface forces. It can include the Primary and
+Secondary Warship Bridge Simulators, FAC Simulator, Submarine Simulator, DSRV
+Simulator, CIC Simulator, ASTT, Helicopter Control Simulator, Coastal Security
+Solution, and a Unified Simulation Control Centre, among others.
+
+Q: What is the Action Speed Tactical Trainer (ASTT)?
+A: The ASTT delivers immersive, high-fidelity naval training for ships,
+submarines, and aircraft command teams. It supports training in Anti-Submarine
+Warfare (ASW), Anti-Air Warfare (AAW), Surface Warfare, Mine Warfare, Amphibious
+Warfare, and Electronic Warfare (EW), with a realistic 3D maritime environment,
+advanced sensor modelling, and comprehensive weapon and countermeasure simulation.
+
+Q: What is the Combat Information Centre (CIC) Simulator?
+A: The CIC Simulator is purpose-built for warfare training centres and active-duty
+surface combat units. It provides an immersive environment that replicates modern
+naval combat complexity, featuring Surface Radar Modules, a Sonar Module, an
+Electronic Warfare Suite, and a Fire Control System (FCS) for training in threat
+detection, targeting, and weapon engagement.
+
+Q: What does the Submarine Operations and Navigation Simulator include?
+A: It is a high-fidelity training platform replicating complex submarine mission
+dynamics. It includes Navigation Systems, Control Interfaces, Operations Modules,
+a Platform Management System (PMS), Position Plotting System, Periscope
+Simulation, Scenario-Based Training, Environmental Simulation, Crew Coordination
+tools, and Performance Feedback capabilities.
+
+Q: What is the DSRV Simulator used for?
+A: The DSRV (Deep Submergence Rescue Vehicle) Simulator trains naval and maritime
+personnel in deploying, manoeuvring, and recovering a DSRV in challenging
+deep-sea rescue situations. It uses high-fidelity hydrodynamic modelling and
+immersive visualisation, and includes SRV and LARS (Launch and Recovery System)
+stations as well as an ROV Station.
+
+Q: What warfare domains does the Helicopter Control Simulation support?
+A: It supports training for helicopter controllers and aircrew coordination,
+integrated ship-helicopter operations, deck procedures, Ship Controlled Approach
+(SCA), Search and Rescue (SAR), maritime search planning, Anti-Submarine Warfare
+(ASW), weapons delivery, and reconnaissance missions.
+
+Q: What is the Domain Awareness and Coastal Security Solution?
+A: It is a unified, real-time naval surveillance and command solution providing
+comprehensive awareness across maritime, air, subsurface, cyber, and space
+domains. It fuses data from coastal sensors, naval platforms, tracking systems,
+and intelligence sources to generate a single integrated operational picture,
+enabling early threat detection, faster decision-making, and 24x7 monitoring.
+
+Q: What does the ARI Cyber Warfare Simulator cover?
+A: The Cyber Warfare Simulator models cyber threats, vulnerabilities, and
+defensive operations across naval networks, platforms, and combat systems. It
+simulates cyber-attacks on Radar, Navigation, Sonar, Electronic Warfare,
+Communications, Vessel Control Systems, Combat and Weapon Control Systems,
+and Vessel Port Infrastructure, supporting operational readiness and strategic
+planning in contested cyber maritime environments.
+
+Q: Does ARI offer Mixed Reality solutions for defence?
+A: Yes. ARI's Mixed Reality (MR) solutions integrate physical and digital
+environments for ultra-realistic, mission-ready simulations. They cover Combat
+and Tactical Training (battlefield scenarios, urban warfare, diverse terrain)
+and Naval Operations Simulation (ship manoeuvring, combat drills, emergency
+response, anti-piracy operations).
+
+Q: What is the Fast Attack Craft (FAC) Simulator?
+A: The FAC Simulator is a high-fidelity, fully integrated training solution
+replicating the operational environment of modern Fast Attack Crafts. It features
+a 360-degree HFOV immersive visualisation environment, an integrated HMI with
+propulsion and steering systems, optional weapon station integration with Medium
+Machine Gun (MMG) simulation and a recoil kit, and a 6-DOF motion platform.
+
+Q: How does ARI ensure data security and confidentiality in defence simulation?
+A: ARI has been audited and certified to ISO 9001 and ISO 14001 standards, which
+include assessment of confidential data protection systems. ARI also holds ISO
+27001 (Information Security Management) and ISO 45001 (Occupational Health and
+Safety) certifications. The distributed simulation infrastructure operates
+across secured defence-grade networks.
+
+Q: How do I contact ARI Simulation?
+A: General enquiries: info@arisimulation.com
+USA office: ariusa@arisimulation.com / +1 408 338 6093
+Singapore office: arisingapore@arisimulation.com
+Website: www.arisimulation.com
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT — ari-defence-suite-001
+--------------------------------------------------------------------------------

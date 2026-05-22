@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from collections import OrderedDict
 from pathlib import Path
 
@@ -9,6 +10,8 @@ from app.config import get_settings
 from app.services.reranker import rerank
 from app.services.vector_store import DocumentIndex
 from app.utils.file_loader import extract_pages
+
+logger = logging.getLogger(__name__)
 
 _NO_FILES = (
     "[Session context: no documents are indexed for this session. "
@@ -26,7 +29,8 @@ class RAGService:
         settings = get_settings()
         self._index = index
         self._top_k = settings.rag_top_k
-        self._rerank_pool = max(settings.rag_rerank_pool, settings.rag_top_k)
+        self._rerank_pool = settings.rag_rerank_pool
+        self._min_score = settings.rag_min_relevance_score
         self._splitter = RecursiveCharacterTextSplitter(
             chunk_size=settings.chunk_size,
             chunk_overlap=settings.chunk_overlap,
@@ -77,9 +81,24 @@ class RAGService:
             if not docs:
                 result = (_NO_CHUNKS, True)
             else:
-                docs = rerank(query, docs, self._top_k)
-                parts = [f"[Excerpt {i}]\n{block}" for i, block in enumerate(docs, start=1)]
-                result = ("\n\n".join(parts), True)
+                scored = rerank(query, docs, self._top_k)
+                logger.info(
+                    "rerank scores (top_k=%d, min=%.3f): %s",
+                    self._top_k,
+                    self._min_score,
+                    [round(s, 3) for _, s in scored],
+                )
+                logger.info(scored)
+                kept = [(t, s) for t, s in scored if s >= self._min_score]
+                if not kept:
+                    logger.info("all rerank scores below threshold — returning NO_CHUNKS")
+                    result = (_NO_CHUNKS, True)
+                else:
+                    parts = [
+                        f"[Excerpt {i}]\n{block}"
+                        for i, (block, _) in enumerate(kept, start=1)
+                    ]
+                    result = ("\n\n".join(parts), True)
 
         self._retrieval_cache[key] = result
         if len(self._retrieval_cache) > self._retrieval_cache_max:

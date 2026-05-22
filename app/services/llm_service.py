@@ -17,7 +17,7 @@ class LLMService:
         self.model = settings.model
         self.keep_alive = settings.llm_keep_alive
         self._options = {
-            "temperature": 0.7,
+            "temperature": settings.agent_temperature,
             "num_ctx": settings.llm_num_ctx,
             "num_predict": settings.llm_num_predict,
         }

@@ -21,14 +21,15 @@ class Settings(BaseSettings):
     chunk_overlap: int = 50
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     embedding_cache_dir: str = "models"
-    rag_top_k: int = 10
-    rag_rerank_pool: int = 5
+    rag_top_k: int = 5
+    rag_rerank_pool: int = 10
     reranker_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-    rag_min_relevance_score: float = 0.06
+    rag_min_relevance_score: float = 8
     history_max_turns: int = 3
-    llm_num_ctx: int = 2048
+    llm_num_ctx: int = 32768
     llm_num_predict: int = 512
     llm_keep_alive: str = "30m"
+    agent_temperature: float = 0.1
 
     class Config:
         env_file = ".env"

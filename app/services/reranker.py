@@ -35,16 +35,14 @@ def get_reranker() -> CrossEncoder:
     )
 
 
-def rerank(query: str, candidates: list[str], top_k: int) -> list[str]:
+def rerank(query: str, candidates: list[str], top_k: int) -> list[tuple[str, float]]:
     if not candidates or top_k <= 0:
         return []
-    if len(candidates) <= top_k:
-        return candidates
     model = get_reranker()
     pairs = [(query, c) for c in candidates]
     scores = model.predict(pairs)
     ranked = sorted(zip(candidates, scores), key=lambda pair: pair[1], reverse=True)
-    return [c for c, _ in ranked[:top_k]]
+    return [(c, float(s)) for c, s in ranked[:top_k]]
 
 
 def prewarm() -> None:

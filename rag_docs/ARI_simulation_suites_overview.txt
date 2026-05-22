@@ -1,0 +1,493 @@
+================================================================================
+DOCUMENT ID: ari-simulation-overview-001
+SOURCE: ARI Simulation — Company and Product Suites High-Level Overview
+VERSION: 1.0
+CATEGORY: Company Overview / Product Suites Summary
+TAGS: ARI Simulation, Zen Technologies, maritime simulation, defence simulation,
+      naval simulation, offshore simulation, marine training, crane simulators,
+      DNV Class A, STCW, IMO, cloud simulation, mixed reality, product suites
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: COMPANY IDENTITY
+--------------------------------------------------------------------------------
+
+Company Name: Applied Research International (ARI) Simulation
+Full Name: Applied Research International Pvt. Ltd.
+Parent Company: Zen Technologies Limited
+Tagline: YOUR WORLD — OUR WORLD®
+Website: www.arisimulation.com
+
+ARI Simulation is the naval and marine simulation arm of Zen Technologies Limited.
+It is a global leader in the production of sophisticated simulation and virtual
+reality training solutions for the defence, marine, and offshore industries.
+
+Office Locations:
+
+USA:
+Bishop Ranch 3, 2603 Camino Ramon, Suite 200
+San Ramon, California, 94583, USA
+Tel: +1 408 338 6093
+Email: ariusa@arisimulation.com
+
+Singapore:
+14 Robinson Road, #08-01A, Far East Finance Building
+Singapore 048545
+Email: arisingapore@arisimulation.com
+
+India (Head Office):
+E-44/14, Okhla Industrial Area, Okhla Phase II
+New Delhi - 110020, India
+Tel: +91-11-41326882
+Email: info@arisimulation.com
+
+General Sales Enquiries: info@arisimulation.com
+
+--------------------------------------------------------------------------------
+SECTION 2: WHO IS ARI SIMULATION?
+--------------------------------------------------------------------------------
+
+Applied Research International (ARI) Simulation, a subsidiary of Zen Technologies
+Limited, is a globally recognised leader in the design, development, and delivery
+of simulation and virtual reality training solutions. ARI serves two primary
+industries: the defence sector (navies and armed forces worldwide) and the
+commercial maritime, marine, and offshore sector.
+
+ARI's simulators are built to the highest international standards, holding
+certifications and approvals from a broad range of globally respected industry
+and regulatory bodies including:
+
+- IMO (International Maritime Organization)
+- STCW 2010 (Standards of Training, Certification and Watchkeeping for Seafarers)
+- DNV (Det Norske Veritas) — Class A certification for the entire marine and
+  offshore simulation range
+- The Nautical Institute (NI)
+- OPITO (Offshore Petroleum Industry Training Organisation)
+- AMERC (Association of Marine Electronics and Radio Colleges)
+- IMCA (International Marine Contractors Association)
+- IALA (International Association of Marine Aids to Navigation)
+- ISO 9001 (Quality Management)
+- ISO 14001 (Environmental Management)
+
+ARI's products are built to military standards for the defence sector and to the
+highest civilian certification standards for the commercial maritime sector.
+
+Global Reach:
+- 60+ countries with installations
+- 1,500+ installations worldwide
+- Offices in India (Delhi and Mumbai), USA (California), and Singapore
+- 55+ copyrights held in India, globally recognised
+- More than 75,000 certificates generated through ARI cloud simulation systems
+
+ARI offers two primary simulation suites:
+
+1. THE MARITIME SIMULATION SUITE
+   Covering marine, offshore, ports and terminals, cloud and digital technologies,
+   and feasibility studies — for commercial maritime, offshore, and port operators,
+   training institutions, and certification bodies.
+
+2. THE DEFENCE SIMULATION SUITE
+   Covering naval warfare, submarine, aviation, cyber, coastal security, and
+   integrated multi-simulator complexes — for navies, armed forces, and defence
+   training establishments worldwide.
+
+Both suites are described in detail in the sections below.
+
+--------------------------------------------------------------------------------
+SECTION 3: SUITE 1 — THE MARITIME SIMULATION SUITE
+--------------------------------------------------------------------------------
+
+3.1 WHAT IS THE MARITIME SIMULATION SUITE?
+
+The ARI Maritime Simulation Suite (also referred to as the Marine and Logistics
+Simulation portfolio) covers the entire range of commercial marine, offshore,
+and port operations. It is designed for maritime academies, training centres,
+shipping companies, offshore operators, port authorities, and certification bodies.
+
+The suite provides simulators for Bridge, Engine Room, Cargo, Communications,
+Offshore, Subsea, Ports and Terminals, and Cloud-based training. All simulators
+in the suite share the following fundamental characteristics:
+
+- Designed, built, and installed in accordance with IMO and STCW 2010 requirements
+- Approved by DNV to the highest Class A Standard
+- Available in multiple configurations from desktop / part-task trainers to
+  large-scale full-mission installations
+- Capable of standalone operation or integration into multi-simulator complexes
+- Support both initial certification training and revalidation / refresher
+  programmes
+
+3.2 WHAT DOES THE MARITIME SIMULATION SUITE INCLUDE?
+
+The Maritime Simulation Suite is organised across four sub-categories:
+
+MARINE SUITE (Navigation, Bridge, Engine, Cargo):
+- Full Mission Ship Handling / Navigation Simulator — IMO, STCW 2010, DNV Class A
+- Full Mission Tug Handling Simulator
+- VTS (Vessel Traffic Service) Simulator — IALA V-103 compliant
+- GMDSS / Communications Simulator — STCW 2010, DNV Class A, AMERC approved
+- RADAR / ARPA Simulator — IMO Model Courses 1.07 and 1.08, STCW 2010
+- ECDIS Simulator — STCW 2010, IMO Model Course 1.27
+- Full Mission Engine Room Simulator — including Green Fuel / Decarbonisation
+  engine models (LNG, Methanol, Dual Fuel)
+- Liquid Cargo Handling / Process Simulator — Oil, Chemical, LPG, LNG tankers
+- LNG and Methanol Bunkering Simulator
+
+OFFSHORE AND SUBSEA SUITE:
+- Full Mission Offshore Bridge Simulator — PSV, AHTSV, MPSV, MSV vessel types
+- Dynamic Positioning (DP) Simulator — NI and DNV Class A certified
+- Anchor Handling Simulator
+- Offshore Machinery Simulator
+- Subsea / ROV Simulator — DNV Class A, IMCA compliant
+
+PORTS AND TERMINALS:
+- Crane Simulators — over 30 types including QC (Ship to Shore), RTG, RMG,
+  Straddle Carrier, Mobile Harbour Crane, Offshore Pedestal Crane, Knuckle
+  Boom Crane, Forklift, and others
+- HEMM (Heavy Earth Moving Machinery) Simulators — for mining operations
+  including Tippers, Dozers, Dumpers, Wheel Loaders, LHDs, Shovels,
+  Backhoes, and Excavators
+
+CLOUD, DIGITAL, AND FEASIBILITY:
+- Cloud Based Simulation Training — DNV Approved; 75,000+ certificates generated
+- Automated Scenario / Simulation Based Assessment (ASBA)
+- VR / AR / MR Based Simulator Training
+- Hybrid / Blended Learning Capability
+- SAFEPORT — Port and Waterway Navigation Feasibility Programme
+
+3.3 KEY HIGHLIGHTS OF THE MARITIME SIMULATION SUITE
+
+DNV Class A Certified:
+The entire ARI marine and offshore simulation range holds DNV Class A
+certification — the highest grade awarded by Det Norske Veritas for maritime
+training simulators. This makes ARI one of the most comprehensively certified
+simulation providers in the world.
+
+Scalability:
+Simulators are available in configurations ranging from low-cost desktop and
+part-task trainers to large-scale full-mission installations with 360-degree
+fields of view, motion platforms, and complete replica bridge or engine room
+environments.
+
+Integration:
+Individual simulators can be networked and integrated into multi-simulator
+complexes, enabling combined training across bridge, engine room, cargo, VTS,
+tug, and communications stations simultaneously.
+
+Green and Sustainable Training:
+ARI's engine room simulators include the latest green fuel and decarbonisation
+engine models (LNG, methanol, dual fuel) and emission control systems (HP SCR,
+LP SCR, EGR), enabling training institutions to prepare seafarers for the
+evolving demands of sustainable shipping.
+
+Cloud and Remote Learning:
+ARI introduced one of the first and largest cloud-based simulation systems for
+maritime training. All simulator types are available via the cloud platform.
+ARI is among only three globally certified companies approved by both IADC and
+IWCF for cloud-based drilling and well control assessment.
+
+Port Feasibility:
+The SAFEPORT programme provides simulation-based feasibility studies for port
+and waterway development projects, analysing vessel manoeuvring, tug requirements,
+berth approaches, and river navigation safety before infrastructure is committed.
+
+3.4 WHO IS THE MARITIME SIMULATION SUITE FOR?
+
+- Maritime academies and training centres seeking IMO / STCW 2010 compliant
+  simulator training and certification programmes
+- Shipping companies and operators requiring crew training and competency
+  assessment
+- Offshore operators and oil and gas companies requiring DP, ROV, and
+  offshore bridge training
+- Port authorities and VTS centres requiring vessel traffic management training
+- Port and harbour developers requiring pre-construction feasibility studies
+- Classification societies and certification bodies requiring accredited
+  simulation-based assessment tools
+
+--------------------------------------------------------------------------------
+SECTION 4: SUITE 2 — THE DEFENCE SIMULATION SUITE
+--------------------------------------------------------------------------------
+
+4.1 WHAT IS THE DEFENCE SIMULATION SUITE?
+
+The ARI Defence Simulation Suite (also referred to as the Naval Simulation Suite)
+is a collection of sophisticated, high-fidelity training platforms built to
+military standards. Each simulator in the suite provides a complete learning
+experience for specific naval warfare, engineering, or mission operations.
+
+The suite is designed for navies, armed forces, defence training establishments,
+and national maritime security agencies. It covers the full spectrum of naval
+training needs: from bridge operations and machinery management to submarine
+warfare, cyber defence, and joint multi-force operations.
+
+ARI's Naval Simulation Suite is considered one of the most powerful naval
+simulation platforms available globally. The simulators have been delivered to
+a significant number of armed forces worldwide.
+
+The suite is built on the following core principles:
+
+Integration and Interoperability:
+Simulators are designed and built to deliver a high degree of integration and
+interoperability. Multiple simulators and simulator types can be interfaced using
+Common Databases and High Level Architecture (HLA) systems to permit platform,
+fleet, and force-level training scenarios. The distributed simulation
+infrastructure is fully compatible with secured defence-grade networks.
+
+Flexibility:
+Each simulator can be operated individually, or multiple simulators can be
+combined into different configurations to create team training, whole-ship
+training, or multiple collective whole-ship training platforms.
+
+Mission Readiness:
+From operations to tactical and strategic evaluation, from electronic warfare to
+troop movement planning, the simulators can be deployed in a variety of roles.
+Participants can visualise tactical inputs, analyse multiple courses of action,
+and evaluate a range of decision response scenarios in combat or mobilisation
+environments.
+
+4.2 WHAT DOES THE DEFENCE SIMULATION SUITE INCLUDE?
+
+WARSHIP BRIDGE AND NAVIGATION:
+- Bridge Operations Simulator (Primary and Secondary Warship Bridge) — full
+  recreation of naval vessel bridge with military band Radars, EWS systems,
+  weapon control, encrypted communications, and subsea threat tools
+- ECDIS and RADAR/ARPA Room — IMO / STCW 2010 compliant navigation systems
+
+SURFACE WARFARE:
+- Fast Attack Craft (FAC) Simulator — 360-degree HFOV, 6-DOF motion platform,
+  MMG simulation with recoil kit, weapon system integration
+- Action Speed Tactical Trainer (ASTT) — multi-domain naval tactical training
+  for ships, submarines, and aircraft command teams; supports ASW, AAW, EW,
+  Mine, Amphibious, and Surface Warfare
+
+COMBAT AND COMMAND:
+- Combat Information Centre (CIC) Simulator — Surface Radar Modules, Sonar
+  Module, Electronic Warfare Suite, and Fire Control System (FCS)
+
+SUBSURFACE WARFARE:
+- Submarine Operations and Navigation Simulator — navigation, PMS, periscope
+  simulation, scenario-based training, crew coordination
+- Deep Submergence Rescue Vehicle (DSRV) Simulator — hydrodynamic modelling,
+  SRV and LARS station, ROV station
+
+ENGINEERING AND PROPULSION:
+- Warship Machinery Operations Simulator — high-speed engines, turbines,
+  waterjet propulsors, fault injection, instructor control tools
+
+AVIATION:
+- Helicopter Control Simulation — ship-helicopter coordination, SCA, SAR,
+  ASW, deck operations, weapons delivery
+
+DOMAIN AWARENESS AND SECURITY:
+- Domain Awareness and Coastal Security Solution — unified, real-time
+  multi-domain naval surveillance and command solution
+- Cyber Warfare Simulator — models cyber threats across Radar, Navigation,
+  Sonar, EW, Communications, Vessel Control, Combat Systems, and Port
+  Infrastructure
+
+EMERGING TECHNOLOGY:
+- Advanced Mixed Reality (MR) Solutions for Defence Training — combat and
+  tactical training, naval operations simulation
+- ROV / Tele-Robotic and Autonomous Systems Simulator — IED handling,
+  urban and rural terrain, assessment scoring
+
+CLOUD AND DIGITAL:
+- Cloud-Based Simulation (secure, scalable, ASBA assessment)
+
+INTEGRATED NAVAL SIMULATION COMPLEX:
+- ARI Naval Simulation Complex — multi-simulator, HLA-enabled, unified
+  control centre integrating all of the above simulators into a single
+  training ecosystem
+
+4.3 KEY HIGHLIGHTS OF THE DEFENCE SIMULATION SUITE
+
+Built to Military Standards:
+All defence products are built to military standards and incorporate a
+considerable set of unique defence-related features not found in commercial
+maritime simulation. They have been delivered to and are trusted by multiple
+armed forces around the world.
+
+Full-Spectrum Naval Coverage:
+The suite covers every domain of modern naval warfare — surface, subsurface,
+air, electronic, and cyber — enabling holistic naval training from a single
+integrated platform.
+
+Integrated Multi-Simulator Complex:
+The ARI Naval Simulation Complex integrates up to 13 individual simulators
+(Primary and Secondary Warship Bridge, FAC, GMDSS, Machinery, Submarine,
+DSRV, ECDIS/RADAR Room, ASTT, CIC, Helicopter Control, Coastal Security
+Solution, and Unified Control Centre) into one unified training ecosystem
+with real-time data exchange, dynamic threat modelling, and synchronised
+operations.
+
+Recording and Debriefing:
+All simulators record complete training sessions including equipment operation
+sequences, visual images, sensor data, CCTV views, and voice communications.
+Recordings are fully synchronised, time-stamped, and can be replayed at variable
+speeds, including live resumption from within a recording.
+
+Cyber Domain Training:
+The Cyber Warfare Simulator is one of the most comprehensive cyber-maritime
+training platforms available, modelling attacks and defensive operations across
+Radar, Navigation, Sonar, Electronic Warfare, Communications, Vessel Control
+Systems, Combat and Weapon Systems, and Port Infrastructure.
+
+Customisation:
+ARI provides completely customised simulation solutions for specific vessels and
+platforms, including their exact performance and handling footprints. Assets,
+equipment, standard operating procedures, environment, and physical modelling
+parameters can all be customised.
+
+4.4 WHO IS THE DEFENCE SIMULATION SUITE FOR?
+
+- Navies and naval training commands requiring high-fidelity simulation for
+  individual and collective naval warfare training
+- Armed forces and defence establishments requiring tactical, strategic, and
+  mission rehearsal simulation platforms
+- Submarine commands requiring training for navigation, sonar, propulsion, and
+  emergency procedures
+- Defence aviation units requiring ship-helicopter coordination training
+- Coastal and maritime security agencies requiring domain awareness and
+  surveillance training
+- Cyber defence units requiring training in defending naval networks and
+  shipborne systems against cyber threats
+
+--------------------------------------------------------------------------------
+SECTION 5: HOW THE TWO SUITES RELATE
+--------------------------------------------------------------------------------
+
+ARI Simulation's two suites — the Maritime Simulation Suite and the Defence
+Simulation Suite — share a common technology foundation and many core simulation
+components, while serving distinctly different operational purposes.
+
+SHARED TECHNOLOGY FOUNDATION:
+- Both suites are built on ARI's proven, certified simulation technology
+- Both use state-of-the-art real-time visualisation systems
+- Both support multi-simulator integration and interoperability
+- Both include ECDIS, RADAR/ARPA, GMDSS, and bridge simulation components
+  (adapted respectively for civilian and military use)
+- Both offer cloud-based and mixed reality training options
+
+KEY DIFFERENCES:
+
+Maritime Simulation Suite:
+- Designed for commercial maritime operators, training institutions, and
+  certification bodies
+- Focus on IMO / STCW 2010 compliance and DNV Class A certification
+- Covers cargo operations, offshore operations, port and crane training,
+  and feasibility studies
+- Optimised for seafarer training, certification, and competency assessment
+
+Defence Simulation Suite:
+- Designed for navies and armed forces
+- Built to military standards with unique defence-related features
+- Covers naval warfare, tactical operations, cyber defence, and joint forces
+  training
+- Optimised for mission rehearsal, tactical proving, combat readiness, and
+  operational training
+
+Together, the two suites position ARI Simulation as one of the most
+comprehensive simulation and training solution providers in the world,
+covering Land, Sea, and Air training needs across both commercial and
+defence sectors.
+
+--------------------------------------------------------------------------------
+SECTION 6: CERTIFICATIONS AND ACCREDITATIONS SUMMARY
+--------------------------------------------------------------------------------
+
+Standard / Body                  | Suite(s) Applicable
+---------------------------------|---------------------------------------------
+DNV Class A                      | Maritime Suite — entire marine and offshore
+                                 | range; also applicable to defence bridge and
+                                 | communications simulators
+STCW 2010                        | Maritime Suite — navigation, communications,
+                                 | engine room simulators
+IMO Model Course 1.07            | RADAR/ARPA Simulator (operational level)
+IMO Model Course 1.08            | RADAR/ARPA Simulator (management level)
+IMO Model Course 1.27            | ECDIS Simulator
+AMERC                            | GMDSS Simulator (specific configurations)
+IALA Model Course V-103          | VTS Simulator
+NI (Nautical Institute)          | DP Simulator
+IMCA                             | ROV / Subsea Simulator (Class A)
+OPITO                            | Offshore training programmes
+IADC                             | Cloud-based drilling assessment
+IWCF                             | Cloud-based well control assessment
+ISO 9001                         | Both suites — company quality management
+ISO 14001                        | Both suites — environmental management
+ISO 27001                        | Information Security Management (ISMS)
+ISO 45001                        | Occupational Health and Safety (OH&S)
+Military Standards               | Defence Suite — all defence products
+55+ Copyrights (India)           | Both suites — globally recognised
+
+--------------------------------------------------------------------------------
+SECTION 7: FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: What are the two main simulation suites ARI offers?
+A: ARI offers the Maritime Simulation Suite (for commercial maritime, offshore,
+and port operators) and the Defence Simulation Suite (for navies and armed forces
+worldwide). Both suites are built on ARI's proven simulation technology and share
+a common core platform, but are adapted for their respective sectors and standards.
+
+Q: Is ARI's simulation technology the same for both maritime and defence?
+A: Yes, both suites are built on ARI's proven and certified simulation technology.
+Defence products additionally incorporate a considerable set of unique
+defence-related features and are built to military standards, while the maritime
+suite is optimised for IMO, STCW 2010, and DNV Class A compliance.
+
+Q: What does the Maritime Simulation Suite cover?
+A: The Maritime Simulation Suite covers the full range of commercial marine and
+offshore training needs. It includes Navigation and Bridge, Engine Room, Cargo
+and Process Handling, Offshore (DP, Anchor Handling, ROV), Ports and Terminals
+(Crane and HEMM), Cloud and Digital Technologies (ASBA, VR/MR), and Port
+Feasibility Studies (SAFEPORT). The entire marine and offshore range is DNV
+Class A certified.
+
+Q: What does the Defence Simulation Suite cover?
+A: The Defence Simulation Suite covers naval bridge operations, fast attack craft
+simulation, action speed tactical training, combat information centres, submarine
+operations, deep submergence rescue, warship machinery, helicopter control,
+domain awareness and coastal security, cyber warfare, and mixed reality training.
+All simulators can be integrated into a single Naval Simulation Complex for
+joint multi-force training.
+
+Q: Who are the customers for each suite?
+A: The Maritime Suite serves maritime academies, training centres, shipping
+companies, offshore operators, port authorities, and certification bodies. The
+Defence Suite serves navies, armed forces, naval training commands, submarine
+commands, defence aviation units, and maritime security agencies.
+
+Q: Can ARI simulators from both suites work together?
+A: Yes. ARI uses Common Databases and High Level Architecture (HLA) systems to
+achieve interoperability between simulators. The distributed simulation
+infrastructure is compatible with secured defence-grade networks, and ARI has
+delivered integrated multi-simulator complexes that combine multiple simulator
+types into unified training ecosystems.
+
+Q: How widely are ARI simulators used?
+A: ARI's simulators are installed in over 60 countries with more than 1,500
+installations worldwide. The Defence Suite has been delivered to a significant
+number of global armed forces. The Maritime Suite has generated over 75,000
+certificates through ARI's cloud simulation systems.
+
+Q: Does ARI offer cloud-based training for both suites?
+A: Yes. Cloud-based training is available across ARI's portfolio for both
+suites. The marine range of cloud modules is DNV Approved. ARI is among only
+three globally certified simulation companies approved by both IADC and IWCF
+for cloud-based drilling and well control assessment.
+
+Q: Does ARI offer customised simulation solutions?
+A: Yes. Customisation is a core strength of ARI. ARI has designed and delivered
+a large number of customised solutions for both suites, from fully custom-built
+vessel simulations to complex multi-trainee and mission-specific platforms.
+Assets, equipment, standard operating procedures, environment, and physical
+modelling can all be customised.
+
+Q: How do I contact ARI Simulation?
+A: General enquiries: info@arisimulation.com
+USA office: ariusa@arisimulation.com / +1 408 338 6093
+Singapore office: arisingapore@arisimulation.com
+Website: www.arisimulation.com
+
+--------------------------------------------------------------------------------
+END OF DOCUMENT — ari-simulation-overview-001
+--------------------------------------------------------------------------------
